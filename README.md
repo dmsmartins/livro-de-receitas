@@ -6,7 +6,7 @@ Abre o index.html para usar o caderno. Marca «Incluir na lista de compras» em 
 
 Edita receitas.json. Cada ingrediente contém nome, quantidade e unidade. Cada passo contém título, instrução e uma dica previamente escrita. Mantém os identificadores das receitas estáveis. Usa sempre as mesmas unidades para os ingredientes que queres somar.
 
-Executa `node gerar.mjs` e inclui o JSON e os HTML gerados no mesmo commit. O GitHub Pages publica a raiz do ramo main. O site funciona sem dependências de execução. Cada receita tem um URL próprio e os dados Recipe em JSON-LD no HTML original.
+Ao guardar alterações em receitas.json no ramo main, o GitHub Actions gera e publica as páginas automaticamente. Para atualizar a cópia local, executa `node gerar.mjs`. O site funciona sem dependências de execução. Cada receita tem um URL próprio e os dados Recipe em JSON-LD no HTML original.
 
 ## Testar o Bring! no telemóvel
 
@@ -15,7 +15,7 @@ Executa `node gerar.mjs` e inclui o JSON e os HTML gerados no mesmo commit. O Gi
 3. Confirma 300 g de tomate, 10 ml de azeite e 4 folhas de manjericão. Adiciona os artigos e verifica a lista de destino.
 4. Se a partilha não estiver disponível, usa a lista do caderno. «Copiar lista» e «Guardar .txt» preservam porções e exclusões para consulta ou introdução manual.
 
-O teste inicial enviou teste-bring.html, servido num URL HTTPS público, ao verificador oficial antes da implementação do livro. O serviço devolveu HTTP 200, duas porções e três entradas: tomate (300 g), Olivenöl (10 ml) e folhas de manjericao (4). A nomenclatura pode variar com o idioma. A leitura pelo serviço e a gravação na conta são verificações distintas.
+O teste inicial enviou teste-bring.html, servido num URL HTTPS público, ao verificador oficial antes da implementação do livro. O serviço devolveu HTTP 200, duas porções e três entradas: tomate (300 g), Olivenöl (10 ml) e folhas de manjericao (4). O teste foi repetido no endereço definitivo do GitHub Pages. O verificador aceitou tanto a página mínima como as duas receitas do livro. A nomenclatura pode variar com o idioma. A leitura pelo serviço e a gravação na conta são verificações distintas.
 
 O botão oficial importa uma receita por URL. As escolhas locais de várias receitas são exportadas em texto. O site não pede credenciais Bring!.
 
