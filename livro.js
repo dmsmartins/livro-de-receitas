@@ -2,6 +2,7 @@ const recipes=JSON.parse(document.querySelector('#dados').textContent);
 const el=id=>document.getElementById(id);
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const fmt=new Intl.NumberFormat('pt-PT',{maximumFractionDigits:2});
+const medida=(qty,unit)=>unit==='q.b.'?unit:fmt.format(qty)+' '+unit;
 const key='caderno:'+location.pathname.replace(/index\.html$/,'');
 let saved;
 try { saved=JSON.parse(localStorage.getItem(key)); } catch {}
@@ -44,15 +45,15 @@ function update(save=true){
   el('porcoes').textContent=p.n+(p.n===1?' porção':' porções');
   el('menos').disabled=p.n===1; el('mais').disabled=p.n===50;
   document.querySelectorAll('.ingredient b').forEach((b,i)=>{
-    const [,qty,unit]=r.ingredientes[i];b.textContent=fmt.format(qty*p.n/r.porcoes)+' '+unit;
+    const [,qty,unit]=r.ingredientes[i];b.textContent=medida(qty*p.n/r.porcoes,unit);
   });
   const selected=recipes.filter(r=>plan[r.id].on);
   el('compras').innerHTML=(selected.length?'<p class="note">'+selected.map(r=>esc(r.nome)+' × '+plan[r.id].n).join('<br>')+'</p>':'')+
-    (items.length?'<ul>'+items.map(i=>`<li><strong>${esc(i.name)}</strong><span>${fmt.format(i.qty)} ${esc(i.unit)}</span></li>`).join('')+'</ul><p class="note">Para levar esta seleção exata, copia a lista ou guarda o ficheiro de texto.</p>':'<p>'+(selected.length?'Seleciona pelo menos um ingrediente.':'Inclui uma receita para começar a lista.')+'</p>');
+    (items.length?'<ul>'+items.map(i=>`<li><strong>${esc(i.name)}</strong><span>${esc(medida(i.qty,i.unit))}</span></li>`).join('')+'</ul><p class="note">Para levar esta seleção exata, copia a lista ou guarda o ficheiro de texto.</p>':'<p>'+(selected.length?'Seleciona pelo menos um ingrediente.':'Inclui uma receita para começar a lista.')+'</p>');
   el('copiar').disabled=el('guardar').disabled=!items.length;
   el('aviso').textContent=''; if(save)persist();
 }
-const listText=()=>totals().map(i=>i.name+' — '+fmt.format(i.qty)+' '+i.unit).join('\n');
+const listText=()=>totals().map(i=>i.name+' — '+medida(i.qty,i.unit)).join('\n');
 el('copiar').onclick=async()=>{try{await navigator.clipboard.writeText(listText());el('aviso').textContent='Lista copiada.';}catch{el('aviso').textContent='A cópia foi bloqueada. Usa «Guardar .txt».';}};
 el('guardar').onclick=()=>{const url=URL.createObjectURL(new Blob([listText()+'\n'],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='lista-de-compras.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
 function navigate(){picker.value=recipes.find(r=>r.id===location.hash.slice(1))?.id||recipes[0].id;showRecipe();}

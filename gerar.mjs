@@ -10,7 +10,7 @@ const used=new Set();
 for(const r of receitas){
   if(!/^[a-z0-9-]+$/.test(r.id)||used.has(r.id)) throw Error('Identificador inválido ou repetido');
   used.add(r.id);
-  const lines=r.ingredientes.map(([name,n,u])=>`${n} ${u} de ${name.toLocaleLowerCase('pt')}`);
+  const lines=r.ingredientes.map(([name,n,u])=>n===null ? name+" q.b." : `${n} ${u} de ${name.toLocaleLowerCase('pt')}`);
   const schema={'@context':'https://schema.org','@type':'Recipe',name:r.nome,author:{'@type':'Person',name:'Caderno de cozinha'},description:r.descricao,recipeYield:String(r.porcoes),recipeIngredient:lines,recipeInstructions:r.passos.map(([name,text])=>({'@type':'HowToStep',name,text}))};
   fs.writeFileSync(r.id+'.html',head(r.nome)+`<script type="application/ld+json">${json(schema)}</script></head><body>${header}<main><a href="index.html#${r.id}">← Voltar ao caderno</a><p class="tag">${escape(r.categoria)} · ${r.minutos} min</p><h1>${escape(r.nome)}</h1><p>${escape(r.descricao)}</p><h2>Ingredientes · ${r.porcoes} porções</h2><ul>${lines.map(i=>'<li>'+escape(i)+'</li>').join('')}</ul><h2>Preparação</h2>${r.passos.map(([n,p,t],i)=>`<section><h3>${i+1}. ${escape(n)}</h3><p>${escape(p)}</p><details><summary>Dica de cozinha</summary><p>${escape(t)}</p></details></section>`).join('')}<h2>Importar no Bring!</h2><p>O botão envia esta receita completa. Escolhe as porções e confirma os ingredientes na app. Se o botão não aparecer, abre esta página publicada no telemóvel e escolhe Partilhar → Bring!.</p><div data-bring-import="" style="display:none"></div><script async src="https://platform.getbring.com/widgets/import.js"></script><a href="https://www.getbring.com">Bring! Shopping List</a></main></body></html>`);
 }

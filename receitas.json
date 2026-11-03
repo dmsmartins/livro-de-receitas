@@ -24,5 +24,127 @@
       ["Tostar o pão", "Aquece uma frigideira seca e tosta as fatias dos dois lados até ficarem douradas.", "Deixa o pão arrefecer sobre uma grelha para que o vapor escape e a base fique estaladiça."],
       ["Cobrir as tostas", "Corta o tomate em cubos pequenos. Reparte pelas fatias e termina com o azeite.", "Monta as tostas só quando fores servir. Se o tomate tiver muito sumo, transfere os cubos com uma escumadeira."]
     ]
-  }
+  },
+{
+  "id": "risotto-de-beterraba",
+  "nome": "Risotto de beterraba com cogumelos e burrata",
+  "categoria": "Prato principal",
+  "minutos": 45,
+  "porcoes": 6,
+  "descricao": "O risotto do jantar de Halloween. O puré de beterraba dá a cor ao arroz, os cogumelos entram dourados e a burrata abre-se já no prato. Conta com 45 minutos se partires de beterraba cozida e óleo de cebolinho preparado.",
+  "ingredientes": [
+    [
+      "Arroz carnaroli ou arbório",
+      450,
+      "g"
+    ],
+    [
+      "Beterraba cozida ou assada",
+      500,
+      "g"
+    ],
+    [
+      "Cogumelos brancos",
+      300,
+      "g"
+    ],
+    [
+      "Chalotas",
+      2,
+      "un."
+    ],
+    [
+      "Caldo de legumes",
+      1500,
+      "ml"
+    ],
+    [
+      "Vinho branco seco",
+      100,
+      "ml"
+    ],
+    [
+      "Manteiga",
+      40,
+      "g"
+    ],
+    [
+      "Parmesão",
+      80,
+      "g"
+    ],
+    [
+      "Burrata",
+      200,
+      "g"
+    ],
+    [
+      "Azeite",
+      null,
+      "q.b."
+    ],
+    [
+      "Manteiga para saltear",
+      null,
+      "q.b."
+    ],
+    [
+      "Alho",
+      null,
+      "q.b."
+    ],
+    [
+      "Tomilho",
+      null,
+      "q.b."
+    ],
+    [
+      "Sal",
+      null,
+      "q.b."
+    ],
+    [
+      "Pimenta-preta",
+      null,
+      "q.b."
+    ],
+    [
+      "Óleo de cebolinho",
+      null,
+      "q.b."
+    ]
+  ],
+  "passos": [
+    [
+      "Preparar a beterraba e o caldo",
+      "Tritura a beterraba até obteres um puré liso. Pica as chalotas, rala o parmesão e aquece o caldo num tacho ao lado.",
+      "Se o puré veio do frigorífico, aquece-o suavemente com uma colher de caldo. Basta ficar morno para que o arroz continue a cozer quando o juntares."
+    ],
+    [
+      "Dourar os cogumelos",
+      "Limpa os cogumelos, corta-os e salteia-os em azeite numa frigideira larga, em duas levas. Quando estiverem dourados, junta um pouco de manteiga, alho picado, tomilho, sal e pimenta. Reserva destapados.",
+      "Deixa espaço entre os cogumelos e espera que a primeira face ganhe cor antes de os virar. Podes reaquecê-los rapidamente na frigideira no momento de servir."
+    ],
+    [
+      "Refogar as chalotas e tostar o arroz",
+      "Refoga as chalotas em azeite e um pouco de manteiga durante 3–4 minutos. Junta o arroz, envolve durante 2 minutos e acrescenta o vinho branco. Deixa evaporar.",
+      "Mantém o lume moderado enquanto as chalotas amolecem. Devem ficar translúcidas e conservar a doçura."
+    ],
+    [
+      "Juntar o caldo e o puré",
+      "Adiciona o caldo quente, uma ou duas conchas de cada vez, mexendo regularmente. Ao fim de 8–10 minutos, incorpora o puré morno. Continua com o caldo até o arroz ficar al dente, cerca de 17–20 minutos de cozedura no total.",
+      "Prova um grão antes de juntares a última concha. Deve estar tenro por fora e oferecer uma ligeira resistência no centro. Reserva um pouco de caldo para acertar a textura."
+    ],
+    [
+      "Ligar fora do lume",
+      "Desliga o lume. Junta a manteiga reservada para finalizar e o parmesão ralado. Envolve vigorosamente e prova antes de acertar o sal.",
+      "Inclina o tacho. Se o arroz ficar preso num bloco, acrescenta um pouco do caldo reservado. No prato, deve espalhar-se lentamente."
+    ],
+    [
+      "Empratar e servir",
+      "Distribui o risotto pelos pratos. Acrescenta os cogumelos quentes, reparte a burrata em pedaços e termina com algumas gotas de óleo de cebolinho.",
+      "Abre a burrata apenas ao empratar para aproveitar o centro cremoso. Leva logo à mesa, enquanto o arroz ainda desliza no prato."
+    ]
+  ]
+}
 ]
