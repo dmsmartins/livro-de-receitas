@@ -1,0 +1,34 @@
+name: Publicar caderno
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: caderno-pages
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Gerar páginas a partir das receitas
+        run: |
+          node gerar.mjs
+          mkdir -p public
+          cp index.html estilo.css livro.js teste-bring.html public/
+          node --input-type=module -e "import fs from 'node:fs'; for (const {id} of JSON.parse(fs.readFileSync('receitas.json'))) fs.copyFileSync(id+'.html','public/'+id+'.html')"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deploy
+        uses: actions/deploy-pages@v4
