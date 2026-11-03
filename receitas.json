@@ -1,0 +1,28 @@
+[
+  {
+    "id": "tomate-com-manjericao",
+    "nome": "Tomate com manjericão",
+    "categoria": "Salada",
+    "minutos": 10,
+    "porcoes": 2,
+    "descricao": "Tomate maduro, azeite e folhas de manjericão rasgadas à mão. O molho faz-se no fundo da taça.",
+    "ingredientes": [["Tomate", 300, "g"], ["Azeite", 10, "ml"], ["Manjericão", 4, "folhas"]],
+    "passos": [
+      ["Cortar o tomate", "Lava o tomate e corta-o em gomos sobre uma tábua. Passa os gomos e o sumo para uma taça.", "Usa uma faca bem afiada ou de serrilha. A pele cede sem ser preciso esmagar a polpa."],
+      ["Envolver e servir", "Junta o azeite e envolve com uma colher. Rasga o manjericão por cima mesmo antes de servir.", "Deixa o tomate repousar uns minutos no azeite enquanto pões a mesa. Recupera o molho com a colher ao servir."]
+    ]
+  },
+  {
+    "id": "tostas-de-tomate",
+    "nome": "Tostas de tomate",
+    "categoria": "Entrada",
+    "minutos": 15,
+    "porcoes": 2,
+    "descricao": "Pão bem tostado, tomate cortado miúdo e um fio de azeite, para comer ainda morno.",
+    "ingredientes": [["Pão", 2, "fatias"], ["Tomate", 200, "g"], ["Azeite", 10, "ml"]],
+    "passos": [
+      ["Tostar o pão", "Aquece uma frigideira seca e tosta as fatias dos dois lados até ficarem douradas.", "Deixa o pão arrefecer sobre uma grelha para que o vapor escape e a base fique estaladiça."],
+      ["Cobrir as tostas", "Corta o tomate em cubos pequenos. Reparte pelas fatias e termina com o azeite.", "Monta as tostas só quando fores servir. Se o tomate tiver muito sumo, transfere os cubos com uma escumadeira."]
+    ]
+  }
+]
