@@ -1,22 +1,31 @@
 # À mesa. — Caderno de cozinha
 
-Abre o index.html para usar o caderno. Marca «Incluir na lista de compras» em cada receita desejada. As porções e ingredientes assinalados ficam neste navegador. A lista soma ingredientes com o mesmo nome e unidade.
+Livro pessoal para estudar uma receita, preparar compras e cozinhar com dicas previamente escritas.
 
-## Receitas e publicação
+## Utilização
 
-Edita receitas.json. Cada ingrediente contém nome, quantidade e unidade. Cada passo contém título, instrução e uma dica previamente escrita. Mantém os identificadores das receitas estáveis. Usa sempre as mesmas unidades para os ingredientes que queres somar.
+A página inicial apresenta o catálogo e a lista de compras. Cada receita tem uma página única com ingredientes, porções, dicas expansíveis e acesso direto ao Bring!.
 
-Ao guardar alterações em receitas.json no ramo main, o GitHub Actions gera e publica as páginas automaticamente. Para atualizar a cópia local, executa `node gerar.mjs`. O site funciona sem dependências de execução. Cada receita tem um URL próprio e os dados Recipe em JSON-LD no HTML original.
+As quantidades dos ingredientes e dos passos acompanham as porções. Desmarca os ingredientes que já tens e inclui a receita na lista de compras para a juntar a outras receitas. Podes copiar a seleção de uma receita ou copiar e guardar a lista consolidada.
 
-## Testar o Bring! no telemóvel
+O modo de cozinha aumenta o texto e permite marcar os passos concluídos. As porções, seleção e progresso ficam neste navegador. «Recomeçar» limpa o progresso da receita. Manter o ecrã ligado depende do suporte e das permissões do navegador. A página informa se foi possível.
 
-1. Abre a receita «Tomate com manjericão» no site publicado e escolhe «Abrir receita para o Bring!».
-2. Usa o botão oficial ou o menu de partilha do navegador e escolhe Bring!. Na app, seleciona uma lista de teste e mantém duas porções.
-3. Confirma 300 g de tomate, 10 ml de azeite e 4 folhas de manjericão. Adiciona os artigos e verifica a lista de destino.
-4. Se a partilha não estiver disponível, usa a lista do caderno. «Copiar lista» e «Guardar .txt» preservam porções e exclusões para consulta ou introdução manual.
+## Bring!
 
-O teste inicial enviou teste-bring.html, servido num URL HTTPS público, ao verificador oficial antes da implementação do livro. O serviço devolveu HTTP 200, duas porções e três entradas: tomate (300 g), Olivenöl (10 ml) e folhas de manjericao (4). O teste foi repetido no endereço definitivo do GitHub Pages. O verificador aceitou tanto a página mínima como as duas receitas do livro. A nomenclatura pode variar com o idioma. A leitura pelo serviço e a gravação na conta são verificações distintas.
+O botão usa o endpoint oficial de integração web-to-app, com o endereço público da própria receita e os parâmetros baseQuantity e requestedQuantity. O cálculo de seis para duas porções foi confirmado no verificador oficial, com 150 g de arroz e 500 ml de caldo.
 
-O botão oficial importa uma receita por URL. As escolhas locais de várias receitas são exportadas em texto. O site não pede credenciais Bring!.
+O Bring! recebe todos os ingredientes da receita. Os ingredientes desmarcados localmente precisam de ser retirados também na app. A seleção exata pode ser copiada como texto. A gravação na lista pessoal continua a exigir um teste na app do utilizador.
 
-[Verificador oficial](https://www.getbring.com/en/integration-check) · [Guia de partilha](https://www.getbring.com/blog-posts/meal-planning-for-the-week-with-bring)
+Se o botão não abrir a app, usa o menu Partilhar do navegador no telemóvel e escolhe Bring!, confirmando as porções nessa via.
+
+[Documentação oficial do Bring!](https://sites.google.com/getbring.com/bring-import-dev-guide/web-to-app-integration)
+
+## Conteúdo e publicação
+
+Edita receitas.json no ramo main. O fluxo do GitHub Actions gera e publica o site automaticamente. Para regenerar a cópia local, executa `node gerar.mjs`.
+
+Os campos preparacao, cozedura, equipamento, antes, complemento e detalhes enriquecem uma receita. Cada elemento de detalhes corresponde ao passo na mesma posição. Os índices de ingredientes em usa e indices começam em zero e devem acompanhar a ordem da lista. Uma quantidade null com unidade q.b. mantém o tempero sem escala numérica.
+
+A receita de risotto usa as quantidades recuperadas do jantar de Halloween. Para completar a preparação do óleo de cebolinho, esta edição acrescenta uma versão simples com 10 g de cebolinho e 40 ml de azeite para seis porções. O tempo total de 50 minutos é estimado, partindo de beterraba já cozida ou assada.
+
+Mantém os identificadores estáveis para preservar favoritos e escolhas. Os antigos links index.html#identificador redirecionam para a página da receita. Os dados Recipe em JSON-LD estão no HTML original, para leitura pelo Bring!.

@@ -1,60 +1,183 @@
-const recipes=JSON.parse(document.querySelector('#dados').textContent);
-const el=id=>document.getElementById(id);
-const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
-const fmt=new Intl.NumberFormat('pt-PT',{maximumFractionDigits:2});
-const medida=(qty,unit)=>unit==='q.b.'?unit:fmt.format(qty)+' '+unit;
-const key='caderno:'+location.pathname.replace(/index\.html$/,'');
-let saved;
-try { saved=JSON.parse(localStorage.getItem(key)); } catch {}
-const plan={};
-for(const r of recipes){
-  const old=saved?.[r.id];
-  plan[r.id]={on:old?.on===true,n:Number.isInteger(old?.n)&&old.n>=1&&old.n<=50?old.n:r.porcoes,
-    skip:r.ingredientes.filter(([name])=>Array.isArray(old?.skip)&&old.skip.includes(name)).map(([name])=>name)};
-}
-function persist(){try{localStorage.setItem(key,JSON.stringify(plan));}catch{el('aviso').textContent='O navegador permite usar a lista apenas nesta sessão.';}}
-const picker=el('receita');
-recipes.forEach(r=>picker.add(new Option(r.nome,r.id)));
-function active(){return recipes.find(r=>r.id===picker.value);}
-function showRecipe(){
-  const r=active(), p=plan[r.id];
-  el('ficha').innerHTML=`<p class="tag">${esc(r.categoria)} · ${r.minutos} minutos</p><h2>${esc(r.nome)}</h2><p>${esc(r.descricao)}</p><label class="plan"><input type="checkbox" id="incluir" ${p.on?'checked':''}> Incluir na lista de compras</label><div class="row"><h3>Ingredientes</h3><div><button id="menos" aria-label="Diminuir porções">−</button> <span id="porcoes"></span> <button id="mais" aria-label="Aumentar porções">+</button></div></div><div id="ingredientes">${r.ingredientes.map(([name],i)=>`<label class="ingredient"><input type="checkbox" data-i="${i}" ${p.skip.includes(name)?'':'checked'}><span>${esc(name)}</span><b></b></label>`).join('')}</div><h3>Preparação</h3>${r.passos.map(([name,body,tip],i)=>`<section><small>PASSO ${String(i+1).padStart(2,'0')}</small><h4>${esc(name)}</h4><p>${esc(body)}</p><details><summary>Dica de cozinha</summary><p>${esc(tip)}</p></details></section>`).join('')}<a class="bring" href="${r.id}.html">Abrir receita para o Bring! ↗</a><p class="note">A importação usa a receita completa. Ajusta porções e ingredientes no Bring!.</p>`;
-  el('incluir').onchange=e=>{p.on=e.target.checked;update();};
-  el('menos').onclick=()=>{p.n--;update();};
-  el('mais').onclick=()=>{p.n++;update();};
-  el('ingredientes').onchange=e=>{
-    const name=r.ingredientes[Number(e.target.dataset.i)][0];
-    p.skip=e.target.checked?p.skip.filter(s=>s!==name):[...p.skip,name];update();
+const recipes = JSON.parse(document.getElementById('dados').textContent);
+const el = id => document.getElementById(id);
+const esc = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
+const fmt = new Intl.NumberFormat('pt-PT', {maximumFractionDigits: 2});
+const measure = (quantity, unit) => unit === 'q.b.' ? unit : fmt.format(quantity) + ' ' + unit;
+// This directory key preserves shopping selections saved by the original index.
+const key = 'caderno:' + location.pathname.slice(0, location.pathname.lastIndexOf('/') + 1);
+let saved = {};
+try { saved = JSON.parse(localStorage.getItem(key)) || {}; } catch {}
+const plan = {};
+for (const recipe of recipes) {
+  const old = saved[recipe.id];
+  plan[recipe.id] = {
+    on: old?.on === true,
+    n: Number.isInteger(old?.n) && old.n >= 1 && old.n <= 50 ? old.n : recipe.porcoes,
+    skip: recipe.ingredientes.filter(([name]) => Array.isArray(old?.skip) && old.skip.includes(name)).map(([name]) => name)
   };
-  update(false);
 }
-function totals(){
-  const items=new Map();
-  for(const r of recipes){
-    const p=plan[r.id]; if(!p.on)continue;
-    for(const [name,qty,unit] of r.ingredientes){
-      if(p.skip.includes(name))continue;
-      const id=JSON.stringify([name,unit]), prior=items.get(id);
-      items.set(id,{name,unit,qty:(prior?.qty||0)+qty*p.n/r.porcoes});
+function persist() {
+  try { localStorage.setItem(key, JSON.stringify(plan)); }
+  catch { el('aviso').textContent = 'As escolhas ficam disponíveis apenas nesta sessão.'; }
+}
+function selectedItems(recipe) {
+  const p = plan[recipe.id];
+  return recipe.ingredientes.filter(([name]) => !p.skip.includes(name))
+    .map(([name, quantity, unit]) => ({name, quantity: quantity * p.n / recipe.porcoes, unit}));
+}
+const textList = items => items.map(i => i.name + ' — ' + measure(i.quantity, i.unit)).join('\n');
+async function copy(items) {
+  try {
+    await navigator.clipboard.writeText(textList(items));
+    el('aviso').textContent = 'Lista copiada.';
+  } catch { el('aviso').textContent = 'A cópia foi bloqueada. Seleciona o texto ou guarda a lista na página de compras.'; }
+}
+function totalItems() {
+  const items = new Map();
+  for (const r of recipes.filter(r => plan[r.id].on)) {
+    for (const item of selectedItems(r)) {
+      const id = JSON.stringify([item.name, item.unit]);
+      const previous = items.get(id);
+      items.set(id, {...item, quantity: (previous?.quantity || 0) + item.quantity});
     }
   }
   return [...items.values()];
 }
-function update(save=true){
-  const r=active(),p=plan[r.id],items=totals();
-  el('porcoes').textContent=p.n+(p.n===1?' porção':' porções');
-  el('menos').disabled=p.n===1; el('mais').disabled=p.n===50;
-  document.querySelectorAll('.ingredient b').forEach((b,i)=>{
-    const [,qty,unit]=r.ingredientes[i];b.textContent=medida(qty*p.n/r.porcoes,unit);
+function showShopping() {
+  const selected = recipes.filter(r => plan[r.id].on);
+  const items = totalItems();
+  el('lista').innerHTML = selected.map(r => `<div class="shopping-recipe"><a href="${r.id}.html">${esc(r.nome)} · ${plan[r.id].n} porções</a><button data-remove="${r.id}" aria-label="Retirar ${esc(r.nome)} da lista">Retirar</button></div>`).join('') +
+    (items.length ? '<ul class="shopping-items">' + items.map(i => `<li><span>${esc(i.name)}</span><strong>${esc(measure(i.quantity, i.unit))}</strong></li>`).join('') + '</ul>' : '<p>A tua lista ainda não tem ingredientes.</p>');
+  el('copiar').disabled = el('guardar').disabled = !items.length;
+  el('lista').querySelectorAll('[data-remove]').forEach(button => {
+    button.onclick = () => { plan[button.dataset.remove].on = false; persist(); showShopping(); };
   });
-  const selected=recipes.filter(r=>plan[r.id].on);
-  el('compras').innerHTML=(selected.length?'<p class="note">'+selected.map(r=>esc(r.nome)+' × '+plan[r.id].n).join('<br>')+'</p>':'')+
-    (items.length?'<ul>'+items.map(i=>`<li><strong>${esc(i.name)}</strong><span>${esc(medida(i.qty,i.unit))}</span></li>`).join('')+'</ul><p class="note">Para levar esta seleção exata, copia a lista ou guarda o ficheiro de texto.</p>':'<p>'+(selected.length?'Seleciona pelo menos um ingrediente.':'Inclui uma receita para começar a lista.')+'</p>');
-  el('copiar').disabled=el('guardar').disabled=!items.length;
-  el('aviso').textContent=''; if(save)persist();
 }
-const listText=()=>totals().map(i=>i.name+' — '+medida(i.qty,i.unit)).join('\n');
-el('copiar').onclick=async()=>{try{await navigator.clipboard.writeText(listText());el('aviso').textContent='Lista copiada.';}catch{el('aviso').textContent='A cópia foi bloqueada. Usa «Guardar .txt».';}};
-el('guardar').onclick=()=>{const url=URL.createObjectURL(new Blob([listText()+'\n'],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='lista-de-compras.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
-function navigate(){picker.value=recipes.find(r=>r.id===location.hash.slice(1))?.id||recipes[0].id;showRecipe();}
-picker.onchange=()=>{location.hash=picker.value;};window.addEventListener('hashchange',navigate);navigate();
+function setupShopping() {
+  // Keep links saved before recipe pages became the main reading experience.
+  function oldBookmark() {
+    const r = recipes.find(r => r.id === location.hash.slice(1));
+    if (r) location.replace(r.id + '.html');
+  }
+  oldBookmark();
+  window.addEventListener('hashchange', oldBookmark);
+  showShopping();
+  el('copiar').onclick = () => copy(totalItems());
+  el('guardar').onclick = () => {
+    const url = URL.createObjectURL(new Blob([textList(totalItems()) + '\n'], {type: 'text/plain;charset=utf-8'}));
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'lista-de-compras.txt';
+    a.click();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+  };
+}
+function setupRecipe(recipe) {
+  const p = plan[recipe.id];
+  const progressKey = key + 'passos:' + recipe.id;
+  let completed = [];
+  try {
+    const stored = JSON.parse(localStorage.getItem(progressKey));
+    if (Array.isArray(stored)) completed = stored.filter(n => Number.isInteger(n) && n >= 0 && n < recipe.passos.length);
+  } catch {}
+  function update() {
+    el('porcoes').textContent = p.n + (p.n === 1 ? ' porção' : ' porções');
+    el('menos').disabled = p.n === 1;
+    el('mais').disabled = p.n === 50;
+    el('incluir').checked = p.on;
+    document.querySelectorAll('[data-qty]').forEach(node => {
+      const [, quantity, unit] = recipe.ingredientes[Number(node.dataset.qty)];
+      node.textContent = measure(quantity * p.n / recipe.porcoes, unit);
+    });
+    document.querySelectorAll('[data-ingredient]').forEach(input => {
+      input.checked = !p.skip.includes(recipe.ingredientes[Number(input.dataset.ingredient)][0]);
+    });
+    const url = new URL(recipe.id + '.html', 'https://dmsmartins.github.io/livro-de-receitas/');
+    el('bring').href = 'https://api.getbring.com/rest/bringrecipes/deeplink?' + new URLSearchParams({
+      url: url.href, source: 'web', baseQuantity: recipe.porcoes, requestedQuantity: p.n
+    });
+    el('bring-note').textContent = 'Envia a receita completa para ' + p.n + (p.n === 1 ? ' pessoa.' : ' pessoas.') +
+      (p.skip.length ? ' Desmarcaste ' + p.skip.length + ' ingrediente(s) aqui. Retira-os também no Bring!.' : ' Retira na app os ingredientes que já tens.');
+    el('copiar-receita').disabled = !selectedItems(recipe).length;
+  }
+  el('menos').onclick = () => { p.n--; update(); persist(); };
+  el('mais').onclick = () => { p.n++; update(); persist(); };
+  el('incluir').onchange = e => { p.on = e.target.checked; persist(); };
+  document.querySelectorAll('[data-ingredient]').forEach(input => {
+    input.onchange = () => {
+      const name = recipe.ingredientes[Number(input.dataset.ingredient)][0];
+      p.skip = input.checked ? p.skip.filter(n => n !== name) : [...p.skip, name];
+      update(); persist();
+    };
+  });
+  el('copiar-receita').onclick = () => copy(selectedItems(recipe));
+  function showProgress() {
+    document.querySelectorAll('[data-step]').forEach(input => {
+      input.checked = completed.includes(Number(input.dataset.step));
+      input.closest('.step').classList.toggle('completed', input.checked);
+    });
+    const label = completed.length + ' de ' + recipe.passos.length + ' passos concluídos';
+    el('progresso').textContent = el('cook-progress').textContent = label;
+    el('proximo').disabled = completed.length === recipe.passos.length;
+  }
+  function saveProgress() {
+    try { localStorage.setItem(progressKey, JSON.stringify(completed)); } catch {}
+    showProgress();
+  }
+  document.querySelectorAll('[data-step]').forEach(input => {
+    input.onchange = () => {
+      const step = Number(input.dataset.step);
+      completed = input.checked ? [...new Set([...completed, step])] : completed.filter(n => n !== step);
+      saveProgress();
+    };
+  });
+  el('repor').onclick = () => { completed = []; saveProgress(); };
+  function nextStep() {
+    const next = [...document.querySelectorAll('[data-step]')].find(input => !input.checked);
+    next?.closest('.step').scrollIntoView({behavior: 'smooth', block: 'start'});
+  }
+  let cooking = false;
+  let wakeLock = null;
+  async function keepAwake() {
+    if (!cooking || document.visibilityState !== 'visible' || wakeLock) return;
+    if (!('wakeLock' in navigator)) {
+      el('ecra').textContent = 'Este navegador não permite manter o ecrã ligado automaticamente.';
+      return;
+    }
+    try {
+      const lock = await navigator.wakeLock.request('screen');
+      if (!cooking) { await lock.release(); return; }
+      wakeLock = lock;
+      el('ecra').textContent = 'O ecrã mantém-se ligado enquanto esta página estiver visível.';
+      lock.addEventListener('release', () => {
+        wakeLock = null;
+        if (cooking) el('ecra').textContent = 'O ecrã voltou às definições normais do dispositivo.';
+      });
+    } catch { el('ecra').textContent = 'Não foi possível manter o ecrã ligado. Verifica as definições do dispositivo.'; }
+  }
+  async function setCooking(value) {
+    cooking = value;
+    document.body.classList.toggle('cooking', value);
+    el('modo').setAttribute('aria-pressed', String(value));
+    el('modo').textContent = value ? 'Sair do modo de cozinha' : 'Modo de cozinha';
+    el('cook-bar').hidden = !value;
+    if (value) {
+      el('preparacao').scrollIntoView({behavior: 'smooth'});
+      await keepAwake();
+    } else {
+      await wakeLock?.release();
+      wakeLock = null;
+      el('ecra').textContent = '';
+    }
+  }
+  el('modo').onclick = () => setCooking(!cooking);
+  el('sair').onclick = () => setCooking(false);
+  el('proximo').onclick = nextStep;
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') keepAwake(); });
+  window.addEventListener('pagehide', () => { wakeLock?.release(); });
+  update();
+  showProgress();
+}
+const current = recipes.find(r => r.id === document.body.dataset.recipe);
+if (current) setupRecipe(current);
+else setupShopping();
