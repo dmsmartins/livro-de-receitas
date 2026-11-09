@@ -1,0 +1,17 @@
+{
+  "name": "livro-de-receitas",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validar-receitas.js",
+    "index": "node scripts/gerar-indice.js",
+    "build": "node gerar.mjs",
+    "test": "node --test tests/data.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0"
+  }
+}

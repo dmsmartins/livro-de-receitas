@@ -1,34 +1,45 @@
-name: Publicar caderno
+name: Validar e publicar caderno
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: caderno-pages
+  group: caderno-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
+  validar:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run validate
+      - run: npm test
+      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npx playwright test
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
   publicar:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: validar
+    permissions:
+      pages: write
+      id-token: write
     runs-on: ubuntu-24.04
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
-      - name: Gerar páginas a partir das receitas
-        run: |
-          node gerar.mjs
-          mkdir -p public
-          cp index.html estilo.css livro.js teste-bring.html public/
-          node --input-type=module -e "import fs from 'node:fs'; for (const {id} of JSON.parse(fs.readFileSync('receitas.json'))) fs.copyFileSync(id+'.html','public/'+id+'.html')"
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: public
       - id: deploy
         uses: actions/deploy-pages@v4

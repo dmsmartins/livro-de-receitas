@@ -1,4 +1,17 @@
-const recipes = JSON.parse(document.getElementById('dados').textContent);
+import { adaptar } from './dados.js';
+async function load(url) {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error('Não foi possível carregar '+url);
+  return response.json();
+}
+async function start() {
+const index = await load('data/receitas-index.json');
+const recipes = index.map(adaptar);
+const active = recipes.find(r => r.id === document.body.dataset.recipe);
+if (active) {
+  const recipe = adaptar(await load('receitas/'+active.slug+'.json'));
+  recipes[recipes.indexOf(active)] = recipe;
+}
 const el = id => document.getElementById(id);
 const esc = value => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 const fmt = new Intl.NumberFormat('pt-PT', {maximumFractionDigits: 2});
@@ -46,7 +59,7 @@ function totalItems() {
 function showShopping() {
   const selected = recipes.filter(r => plan[r.id].on);
   const items = totalItems();
-  el('lista').innerHTML = selected.map(r => `<div class="shopping-recipe"><a href="${r.id}.html">${esc(r.nome)} · ${plan[r.id].n} porções</a><button data-remove="${r.id}" aria-label="Retirar ${esc(r.nome)} da lista">Retirar</button></div>`).join('') +
+  el('lista').innerHTML = selected.map(r => `<div class="shopping-recipe"><a href="${r.slug}.html">${esc(r.nome)} · ${plan[r.id].n} porções</a><button data-remove="${r.id}" aria-label="Retirar ${esc(r.nome)} da lista">Retirar</button></div>`).join('') +
     (items.length ? '<ul class="shopping-items">' + items.map(i => `<li><span>${esc(i.name)}</span><strong>${esc(measure(i.quantity, i.unit))}</strong></li>`).join('') + '</ul>' : '<p>A tua lista ainda não tem ingredientes.</p>');
   el('copiar').disabled = el('guardar').disabled = !items.length;
   el('lista').querySelectorAll('[data-remove]').forEach(button => {
@@ -57,7 +70,7 @@ function setupShopping() {
   // Keep links saved before recipe pages became the main reading experience.
   function oldBookmark() {
     const r = recipes.find(r => r.id === location.hash.slice(1));
-    if (r) location.replace(r.id + '.html');
+    if (r) location.replace(r.slug + '.html');
   }
   oldBookmark();
   window.addEventListener('hashchange', oldBookmark);
@@ -92,7 +105,7 @@ function setupRecipe(recipe) {
     document.querySelectorAll('[data-ingredient]').forEach(input => {
       input.checked = !p.skip.includes(recipe.ingredientes[Number(input.dataset.ingredient)][0]);
     });
-    const url = new URL(recipe.id + '.html', 'https://dmsmartins.github.io/livro-de-receitas/');
+    const url = new URL(recipe.slug + '.html', 'https://dmsmartins.github.io/livro-de-receitas/');
     el('bring').href = 'https://api.getbring.com/rest/bringrecipes/deeplink?' + new URLSearchParams({
       url: url.href, source: 'web', baseQuantity: recipe.porcoes, requestedQuantity: p.n
     });
@@ -179,5 +192,14 @@ function setupRecipe(recipe) {
   showProgress();
 }
 const current = recipes.find(r => r.id === document.body.dataset.recipe);
+document.querySelectorAll('button,input').forEach(control => { control.disabled = false; });
 if (current) setupRecipe(current);
 else setupShopping();
+document.body.dataset.ready = 'true';
+
+}
+start().catch(error => {
+  const warning = document.getElementById('aviso');
+  if(warning) warning.textContent = 'Não foi possível carregar os dados. Atualiza a página para tentar novamente.';
+  console.error(error);
+});

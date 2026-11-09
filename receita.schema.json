@@ -1,0 +1,266 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dmsmartins.github.io/livro-de-receitas/receita.schema.json",
+  "type": "object",
+  "properties": {
+    "versao": {
+      "const": 1,
+      "type": "integer"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "ordem": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "nome": {
+      "type": "string",
+      "minLength": 1
+    },
+    "descricao": {
+      "type": "string",
+      "minLength": 1
+    },
+    "imagem": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^https://[^\\s]+$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "categorias": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "etiquetas": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "porcoes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 50
+    },
+    "minutos": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "preparacao": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "cozedura": {
+      "anyOf": [
+        {
+          "type": "integer",
+          "minimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "equipamento": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "ingredientes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string",
+            "minLength": 1
+          },
+          "quantidade": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "unidade": {
+            "type": "string",
+            "minLength": 1
+          },
+          "componente": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "notas": {
+            "type": "string"
+          },
+          "opcional": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "nome",
+          "quantidade",
+          "unidade",
+          "componente",
+          "notas",
+          "opcional"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "passos": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        },
+        "minItems": 3,
+        "maxItems": 3
+      },
+      "minItems": 1
+    },
+    "antes": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "complemento": {
+      "type": "object",
+      "properties": {
+        "nome": {
+          "type": "string",
+          "minLength": 1
+        },
+        "nota": {
+          "type": "string",
+          "minLength": 1
+        },
+        "indices": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "uniqueItems": true
+        },
+        "passos": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1
+        },
+        "dica": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "nome",
+        "nota",
+        "indices",
+        "passos",
+        "dica"
+      ],
+      "additionalProperties": false
+    },
+    "detalhes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "usa": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "uniqueItems": true
+          },
+          "ponto": {
+            "type": "string",
+            "minLength": 1
+          },
+          "porque": {
+            "type": "string",
+            "minLength": 1
+          },
+          "corrigir": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "usa",
+          "ponto",
+          "porque",
+          "corrigir"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "versao",
+    "id",
+    "slug",
+    "ordem",
+    "nome",
+    "descricao",
+    "imagem",
+    "categorias",
+    "etiquetas",
+    "porcoes",
+    "minutos",
+    "preparacao",
+    "cozedura",
+    "equipamento",
+    "ingredientes",
+    "passos"
+  ],
+  "additionalProperties": false
+}
