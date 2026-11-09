@@ -1,0 +1,56 @@
+{
+  "id": "tostas-de-tomate",
+  "nome": "Tostas de tomate",
+  "minutos": 15,
+  "porcoes": 2,
+  "descricao": "Pão bem tostado, tomate cortado miúdo e um fio de azeite, para comer ainda morno.",
+  "ingredientes": [
+    {
+      "nome": "Pão",
+      "quantidade": 2,
+      "unidade": "fatias",
+      "componente": null,
+      "notas": "",
+      "opcional": false
+    },
+    {
+      "nome": "Tomate",
+      "quantidade": 200,
+      "unidade": "g",
+      "componente": null,
+      "notas": "",
+      "opcional": false
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": 10,
+      "unidade": "ml",
+      "componente": null,
+      "notas": "",
+      "opcional": false
+    }
+  ],
+  "passos": [
+    [
+      "Tostar o pão",
+      "Aquece uma frigideira seca e tosta as fatias dos dois lados até ficarem douradas.",
+      "Deixa o pão arrefecer sobre uma grelha para que o vapor escape e a base fique estaladiça."
+    ],
+    [
+      "Cobrir as tostas",
+      "Corta o tomate em cubos pequenos. Reparte pelas fatias e termina com o azeite.",
+      "Monta as tostas só quando fores servir. Se o tomate tiver muito sumo, transfere os cubos com uma escumadeira."
+    ]
+  ],
+  "versao": 1,
+  "slug": "tostas-de-tomate",
+  "ordem": 1,
+  "imagem": null,
+  "categorias": [
+    "Entrada"
+  ],
+  "etiquetas": [],
+  "preparacao": null,
+  "cozedura": null,
+  "equipamento": []
+}

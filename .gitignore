@@ -1,0 +1,5 @@
+public/
+node_modules/
+data/receitas-index.json
+test-results/
+playwright-report/
