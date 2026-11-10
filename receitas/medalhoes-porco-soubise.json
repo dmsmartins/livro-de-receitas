@@ -1,0 +1,272 @@
+
+{
+  "versao": 1,
+  "id": "medalhoes-porco-soubise",
+  "slug": "medalhoes-porco-soubise",
+  "ordem": 11,
+  "nome": "Medalhões de porco com molho Soubise, cenoura assada e feijão-verde",
+  "descricao": "A cebola adocicada do Soubise combina muito bem com o porco. As cenouras assadas prolongam essa doçura, enquanto o feijão-verde acrescenta frescura e equilíbrio ao prato.",
+  "imagem": null,
+  "categorias": [
+    "Pratos principais",
+    "Porco"
+  ],
+  "etiquetas": [
+    "Molho Soubise",
+    "Lombinho de porco",
+    "Forno",
+    "Molho de cebola"
+  ],
+  "porcoes": 2,
+  "minutos": 40,
+  "preparacao": 10,
+  "cozedura": 30,
+  "equipamento": [
+    "Forno",
+    "Tabuleiro de forno",
+    "Frigideira",
+    "Tacho pequeno",
+    "Panela",
+    "Vara de arames",
+    "Varinha mágica",
+    "Faca de cozinha",
+    "Tábua de corte",
+    "Termómetro de cozinha"
+  ],
+  "ingredientes": [
+    {
+      "nome": "Lombinho de porco",
+      "quantidade": 375,
+      "unidade": "g",
+      "componente": "Porco",
+      "notas": "350–400 g, cortado em medalhões de aproximadamente 3 cm",
+      "opcional": false
+    },
+    {
+      "nome": "Cenouras",
+      "quantidade": 300,
+      "unidade": "g",
+      "componente": "Cenouras assadas",
+      "notas": "Cortadas em palitos de espessura semelhante",
+      "opcional": false
+    },
+    {
+      "nome": "Feijão-verde",
+      "quantidade": 250,
+      "unidade": "g",
+      "componente": "Feijão-verde",
+      "notas": "Arranjado, sem as extremidades",
+      "opcional": false
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": 20,
+      "unidade": "ml",
+      "componente": null,
+      "notas": "10 ml para as cenouras, 5 ml para o molho e 5 ml para os medalhões",
+      "opcional": false
+    },
+    {
+      "nome": "Tomilho seco",
+      "quantidade": 1,
+      "unidade": "colher de chá",
+      "componente": "Cenouras assadas",
+      "notas": "Distribuir uniformemente pelas cenouras",
+      "opcional": false
+    },
+    {
+      "nome": "Sal",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": null,
+      "notas": "Para temperar os diferentes elementos",
+      "opcional": false
+    },
+    {
+      "nome": "Pimenta-preta",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": null,
+      "notas": "Preferencialmente moída na altura",
+      "opcional": false
+    },
+    {
+      "nome": "Cebola",
+      "quantidade": 150,
+      "unidade": "g",
+      "componente": "Molho Soubise",
+      "notas": "Uma cebola média, cortada em meias-luas muito finas",
+      "opcional": false
+    },
+    {
+      "nome": "Manteiga",
+      "quantidade": 10,
+      "unidade": "g",
+      "componente": "Molho Soubise",
+      "notas": "Para preparar o roux",
+      "opcional": false
+    },
+    {
+      "nome": "Farinha de trigo",
+      "quantidade": 10,
+      "unidade": "g",
+      "componente": "Molho Soubise",
+      "notas": "Farinha sem fermento",
+      "opcional": false
+    },
+    {
+      "nome": "Leite meio-gordo",
+      "quantidade": 200,
+      "unidade": "ml",
+      "componente": "Molho Soubise",
+      "notas": "Aquecer antes de incorporar",
+      "opcional": false
+    },
+    {
+      "nome": "Noz-moscada",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": "Molho Soubise",
+      "notas": "Uma pitada, preferencialmente ralada na altura",
+      "opcional": false
+    },
+    {
+      "nome": "Sumo de limão",
+      "quantidade": 5,
+      "unidade": "ml",
+      "componente": "Molho Soubise",
+      "notas": "Aproximadamente 1 colher de chá, para equilibrar a doçura",
+      "opcional": true
+    },
+    {
+      "nome": "Água",
+      "quantidade": 30,
+      "unidade": "ml",
+      "componente": "Molho Soubise",
+      "notas": "Aproximadamente 2 colheres de sopa, para estufar a cebola",
+      "opcional": false
+    }
+  ],
+  "antes": [
+    "Retirar o lombinho do frigorífico apenas durante a preparação. Cortar em medalhões de aproximadamente 3 cm e temperar com sal, idealmente 20 minutos antes de cozinhar.",
+    "Lavar, descascar e cortar as cenouras em palitos de espessura uniforme.",
+    "Arranjar o feijão-verde e cortar a cebola em meias-luas muito finas.",
+    "Medir os ingredientes do Soubise e aquecer o leite antes de preparar o roux.",
+    "Aquecer o forno a 210 °C. As cenouras entram primeiro; preparar o molho e os restantes elementos enquanto assam."
+  ],
+  "passos": [
+    [
+      "Assar as cenouras",
+      "Aquecer o forno a 210 °C. Cortar as cenouras em palitos, envolver com 10 ml de azeite, tomilho, sal e pimenta. Distribuir num tabuleiro sem sobrepor e assar durante 25–30 minutos, virando a meio.",
+      "Cortar palitos de espessura semelhante e deixar espaço entre eles para favorecer o dourado sem perder a textura."
+    ],
+    [
+      "Preparar os medalhões",
+      "Cortar o lombinho em medalhões de aproximadamente 3 cm. Temperar com sal, preferencialmente 20 minutos antes da confeção. Secar cuidadosamente a superfície com papel de cozinha antes de colocar na frigideira.",
+      "Uma superfície seca favorece o dourado. Evitar pressionar os medalhões, pois isso altera a espessura e pode prejudicar a uniformidade da cozedura."
+    ],
+    [
+      "Estufar a cebola",
+      "Cortar a cebola em meias-luas muito finas. Colocar num tacho com 5 ml de azeite, uma pitada de sal e 30 ml de água. Tapar e cozinhar em lume brando durante 10–12 minutos, mexendo ocasionalmente, até ficar muito macia e translúcida, sem alourar.",
+      "Manter o lume baixo e o tacho tapado. O objetivo é desenvolver a doçura natural da cebola sem caramelizar."
+    ],
+    [
+      "Preparar o roux e incorporar o leite",
+      "Juntar a manteiga à cebola. Quando derreter, acrescentar a farinha e mexer durante 1–2 minutos. Adicionar gradualmente o leite quente, mexendo continuamente com uma vara de arames. Cozinhar mais 3–4 minutos em lume brando.",
+      "Incorporar o leite em pequenas porções inicialmente, mexendo até obter uma mistura homogénea antes de adicionar mais."
+    ],
+    [
+      "Triturar e temperar o Soubise",
+      "Triturar o molho com a varinha mágica até obter uma textura sedosa. Temperar com pimenta-preta e uma pitada de noz-moscada. Se desejado, juntar o sumo de limão e provar antes de corrigir o sal.",
+      "Triturar cuidadosamente, mantendo a cabeça da varinha submersa. O limão deve acrescentar frescura sem tornar o molho ácido."
+    ],
+    [
+      "Cozer o feijão-verde",
+      "Colocar o feijão-verde em água a ferver temperada com sal. Cozinhar durante 5–7 minutos, conforme a espessura. Escorrer assim que estiver tenro, mas ainda ligeiramente firme.",
+      "Provar um pedaço antes de escorrer. O feijão deve manter alguma resistência à dentada e não ficar mole."
+    ],
+    [
+      "Alourar os medalhões",
+      "Aquecer bem uma frigideira com os restantes 5 ml de azeite. Colocar os medalhões sem sobrepor e alourar durante aproximadamente 2 minutos de cada lado. Baixar o lume e cozinhar mais 1–3 minutos, conforme a espessura, controlando a temperatura interna.",
+      "Deixar formar uma crosta antes de virar. Utilizar um termómetro para evitar cozinhar excessivamente a carne."
+    ],
+    [
+      "Repousar e empratar",
+      "Retirar os medalhões quando atingirem 63 °C no centro e deixar repousar durante pelo menos 3 minutos. Servir com as cenouras assadas e o feijão-verde. Colocar uma pequena porção de Soubise sobre a carne e apresentar o restante molho à parte.",
+      "O repouso ajuda a reduzir a perda de sucos durante o corte. Não depender apenas da subida de temperatura durante o repouso para atingir a temperatura de segurança."
+    ],
+    [
+      "Ajustar a consistência do Soubise",
+      "Antes de servir, verificar a consistência do molho. Deve ser cremoso, mas escorrer lentamente da colher. Se estiver espesso, adicionar leite quente, uma colher de sopa de cada vez. Se estiver líquido, deixar apurar em lume brando durante 1–2 minutos, mexendo.",
+      "O molho engrossa ligeiramente ao arrefecer. Ajustar a textura imediatamente antes de empratar, evitando uma redução excessiva."
+    ]
+  ],
+  "detalhes": [
+    {
+      "usa": [1, 3, 4, 5, 6],
+      "ponto": "Cenouras ligeiramente douradas nas extremidades, macias no interior, mas ainda com alguma estrutura.",
+      "porque": "O calor seco promove a evaporação da humidade superficial e favorece as reações de Maillard e a concentração dos sabores naturais.",
+      "corrigir": "Se estiverem demasiado firmes, prolongar a cozedura por intervalos de 3–5 minutos. Se dourarem demasiado depressa, reduzir ligeiramente a temperatura."
+    },
+    {
+      "usa": [0, 5],
+      "ponto": "Medalhões de espessura uniforme, com superfície seca e sal distribuído.",
+      "porque": "A espessura uniforme facilita uma cozedura homogénea. A superfície seca permite atingir temperaturas favoráveis ao dourado sem gastar tanta energia na evaporação da água.",
+      "corrigir": "Se os medalhões tiverem espessuras muito diferentes, ajustar os cortes. Se a superfície estiver húmida, secar com papel de cozinha."
+    },
+    {
+      "usa": [7, 3, 5, 13],
+      "ponto": "Cebola muito macia, translúcida, sem zonas douradas e com sabor naturalmente adocicado.",
+      "porque": "A cozedura lenta e húmida amolece as estruturas celulares da cebola, reduz a agressividade dos compostos sulfurados e desenvolve a perceção de doçura sem caramelização.",
+      "corrigir": "Se começar a alourar, baixar o lume e acrescentar uma pequena quantidade de água. Se continuar firme, prolongar a cozedura tapada durante alguns minutos."
+    },
+    {
+      "usa": [7, 8, 9, 10],
+      "ponto": "Mistura homogénea, sem grumos, com textura ligeiramente espessa e sem sabor a farinha crua.",
+      "porque": "A manteiga envolve a farinha e o aquecimento do leite permite a gelatinização do amido, responsável pelo espessamento do molho.",
+      "corrigir": "Se surgirem grumos, mexer vigorosamente com a vara de arames. Se engrossar demasiado, acrescentar leite quente em pequenas quantidades."
+    },
+    {
+      "usa": [7, 10, 11, 12],
+      "ponto": "Molho liso, sedoso, sem pedaços percetíveis de cebola e com sabor equilibrado entre doçura, gordura e acidez.",
+      "porque": "A trituração dispersa a cebola amolecida pela fase líquida, produzindo uma textura mais uniforme. Uma pequena quantidade de ácido ajuda a equilibrar a doçura.",
+      "corrigir": "Se o molho apresentar fibras ou pedaços, triturar mais tempo ou passar por um passador fino. Se estiver demasiado ácido, adicionar um pouco de leite e voltar a provar."
+    },
+    {
+      "usa": [2, 5],
+      "ponto": "Feijão-verde de cor viva, tenro, mas ainda ligeiramente firme à dentada.",
+      "porque": "Uma cozedura moderada amolece as paredes celulares sem provocar uma perda excessiva de textura e cor.",
+      "corrigir": "Se estiver duro, prolongar a cozedura em intervalos de 30 segundos. Se estiver demasiado mole, escorrer imediatamente e evitar mantê-lo em água quente."
+    },
+    {
+      "usa": [0, 3, 6],
+      "ponto": "Medalhões dourados no exterior, com temperatura interna próxima de 63 °C e sem sinais de sobrecozedura.",
+      "porque": "O contacto com a frigideira quente promove as reações de Maillard. O controlo da temperatura interna limita a contração excessiva das proteínas e a perda de água.",
+      "corrigir": "Se o exterior escurecer antes de o centro estar cozinhado, baixar o lume. Se a temperatura ainda estiver abaixo de 63 °C, continuar a cozinhar e voltar a medir."
+    },
+    {
+      "usa": [0, 1, 2, 5, 10],
+      "ponto": "Porco com temperatura interna mínima de 63 °C e repouso de pelo menos 3 minutos, acompanhado por legumes no ponto e molho cremoso.",
+      "porque": "A combinação de temperatura interna e tempo de repouso permite servir cortes inteiros de porco com segurança alimentar. O repouso também reduz a perda imediata de sucos ao cortar.",
+      "corrigir": "Se a carne ainda não atingiu 63 °C, continuar a cozinhar antes de iniciar o repouso. Se arrefecer demasiado, servir com o molho quente, evitando voltar a cozinhar excessivamente."
+    },
+    {
+      "usa": [10],
+      "ponto": "Soubise cremoso, homogéneo, que cobre ligeiramente a colher e escorre lentamente.",
+      "porque": "A viscosidade resulta da gelatinização do amido e da dispersão da cebola triturada. O arrefecimento pode aumentar a espessura.",
+      "corrigir": "Se estiver espesso, adicionar leite quente em incrementos de 15 ml. Se estiver líquido, aquecer suavemente durante 1–2 minutos, mexendo continuamente."
+    }
+  ],
+  "complemento": {
+    "nome": "Alternativas ao lombinho e à varinha mágica",
+    "nota": "O lombinho pode ser substituído por bifes finos de lombo de porco. O tempo de confeção deve ser ajustado à espessura, mantendo a verificação da temperatura interna. O Soubise também pode ser preparado sem varinha mágica, embora fique com uma textura menos uniforme.",
+    "indices": [0, 7],
+    "passos": [
+      "Se utilizar bifes finos de lombo de porco, cozinhar aproximadamente 1 minuto e meio a 2 minutos de cada lado, ajustando conforme a espessura e verificando a temperatura interna.",
+      "Se não tiver varinha mágica, picar a cebola muito finamente antes de a cozinhar.",
+      "Prolongar a cozedura suave da cebola até ficar suficientemente macia para quase se desfazer no molho.",
+      "Mexer vigorosamente com uma vara de arames para obter uma textura tão homogénea quanto possível."
+    ],
+    "dica": "Para os bifes finos, o tempo de cozedura é apenas indicativo. Para cortes inteiros de porco, confirmar 63 °C no centro e repousar pelo menos 3 minutos."
+  }
+}
