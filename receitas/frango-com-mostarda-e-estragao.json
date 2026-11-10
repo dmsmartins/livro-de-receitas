@@ -1,0 +1,140 @@
+{\
+&#x20; "id": "frango-com-mostarda-e-estragao",\
+&#x20; "nome": "Frango com mostarda e estragão",\
+&#x20; "categoria": "Carne",\
+&#x20; "descricao": "Sobrecoxas de frango suculentas com molho cremoso de mostarda Dijon e estragão, acompanhadas por arroz de ervilhas e curgete salteada. A acidez da mostarda equilibra a cremosidade do molho, enquanto o estragão acrescenta uma nota aromática delicada.",\
+&#x20; "minutos": 40,\
+&#x20; "porcoes": 2,\
+&#x20; "preparacao": 10,\
+&#x20; "cozedura": 30,\
+&#x20; "equipamento": [\
+&#x20;   "Frigideira larga",\
+&#x20;   "Tacho com tampa para o arroz",\
+&#x20;   "Panela pequena para o molho",\
+&#x20;   "Vara de arames",\
+&#x20;   "Espátula",\
+&#x20;   "Faca e tábua de corte",\
+&#x20;   "Termómetro de cozinha de leitura instantânea (recomendado)"\
+&#x20; ],\
+&#x20; "ingredientes": [\
+&#x20;   ["Sobrecoxas de frango desossadas e sem pele", 375, "g"],\
+&#x20;   ["Arroz agulha", 120, "g"],\
+&#x20;   ["Ervilhas congeladas", 100, "g"],\
+&#x20;   ["Curgete", 250, "g"],\
+&#x20;   ["Azeite", 15, "ml"],\
+&#x20;   ["Manteiga", 10, "g"],\
+&#x20;   ["Farinha de trigo", 10, "g"],\
+&#x20;   ["Leite meio-gordo", 200, "ml"],\
+&#x20;   ["Mostarda Dijon", 10, "ml"],\
+&#x20;   ["Estragão seco", 0.25, "colher de chá"],\
+&#x20;   ["Água para o arroz", 240, "ml"],\
+&#x20;   ["Sal", null, "q.b."],\
+&#x20;   ["Pimenta-preta", null, "q.b."],\
+&#x20;   ["Sumo de limão (opcional)", null, "q.b."]\
+&#x20; ],\
+&#x20; "antes": [\
+&#x20;   "Preparar todos os ingredientes antes de começar, para permitir que o arroz, o frango e o molho sejam cozinhados parcialmente em simultâneo.",\
+&#x20;   "Secar as sobrecoxas com papel de cozinha e abrir as partes mais grossas para uniformizar a espessura.",\
+&#x20;   "Lavar a curgete e cortar em meias-luas com aproximadamente 1 cm de espessura.",\
+&#x20;   "Medir o arroz e as ervilhas congeladas. Não é necessário descongelar as ervilhas.",\
+&#x20;   "Aquecer o leite sem deixar ferver.",\
+&#x20;   "Esmagar ligeiramente o estragão seco entre os dedos para libertar os aromas.",\
+&#x20;   "Reservar um pouco de leite adicional para ajustar a consistência do molho, se necessário.",\
+&#x20;   "Iniciar a preparação pelo arroz e utilizar o tempo de cozedura para preparar a curgete e o frango.",\
+&#x20;   "Preparar a base do molho enquanto o frango cozinha e finalizá-lo na frigideira onde foi cozinhada a carne, aproveitando os resíduos dourados.",\
+&#x20;   "A temperatura interna mínima de referência para o frango é 74 °C. As sobrecoxas podem beneficiar de uma temperatura final de aproximadamente 78–82 °C para obter uma textura mais tenra."\
+&#x20; ],\
+&#x20; "passos": [\
+&#x20;   [\
+&#x20;     "Preparar o arroz de ervilhas",\
+&#x20;     "Colocar o arroz num tacho com cerca de 240 ml de água a ferver e uma pitada de sal, ajustando a quantidade de água e o tempo às instruções da embalagem. Tapar e cozinhar em lume brando. Acrescentar as ervilhas congeladas nos últimos 5 minutos de cozedura. Retirar do lume e deixar repousar tapado durante 3–5 minutos. Soltar os grãos com um garfo antes de servir.",\
+&#x20;     "Evitar mexer repetidamente o arroz durante a cozedura e não levantar a tampa desnecessariamente. Verificar se os grãos estão cozidos, mas separados, e se as ervilhas estão macias e mantêm a cor verde."\
+&#x20;   ],\
+&#x20;   [\
+&#x20;     "Preparar as sobrecoxas",\
+&#x20;     "Abrir as sobrecoxas desossadas para ficarem espalmadas, procurando uniformizar a espessura sem as esmagar. Secar a superfície com papel de cozinha e temperar ambos os lados com sal e pimenta-preta.",\
+&#x20;     "Manter cada sobrecoxa numa peça inteira, abrindo apenas as zonas mais grossas. A superfície deve estar relativamente seca para facilitar o dourado durante a confeção."\
+&#x20;   ],\
+&#x20;   [\
+&#x20;     "Saltear a curgete",\
+&#x20;     "Cortar a curgete em meias-luas com aproximadamente 1 cm de espessura. Aquecer cerca de metade do azeite numa frigideira larga, em lume médio-alto. Distribuir a curgete numa camada e cozinhar durante 5–7 minutos, virando ocasionalmente. Temperar com sal e pimenta-preta e reservar.",\
+&#x20;     "Deixar a curgete ganhar cor antes de virar. Evitar sobrecarregar a frigideira ou mexer continuamente, para permitir que a humidade evapore e se desenvolvam superfícies ligeiramente douradas."\
+&#x20;   ],\
+&#x20;   [\
+&#x20;     "Cozinhar o frango",\
+&#x20;     "Na mesma frigideira, acrescentar o restante azeite e aquecer em lume médio-alto. Colocar as sobrecoxas sem as sobrepor e dourar durante aproximadamente 3–4 minutos de cada lado. Reduzir para lume médio e continuar a cozinhar até atingir pelo menos 74 °C no centro da parte mais espessa. Para uma textura mais tenra, pode prolongar-se cuidadosamente a confeção até cerca de 78–82 °C. Retirar e deixar repousar durante 3 minutos. Reservar a frigideira com os resíduos dourados para finalizar o molho.",\
+&#x20;     "Introduzir o termómetro lateralmente na parte mais espessa da carne. Se a superfície começar a escurecer demasiado antes de o interior estar pronto, reduzir o lume. Os tempos são apenas indicativos e dependem da espessura das peças."\
+&#x20;   ],\
+&#x20;   [\
+&#x20;     "Preparar a base do molho",\
+&#x20;     "Enquanto o frango cozinha, derreter a manteiga numa panela pequena em lume brando. Juntar a farinha e mexer continuamente durante 1–2 minutos, sem deixar alourar. Acrescentar gradualmente o leite morno, mexendo com uma vara de arames. Cozinhar durante 3–5 minutos, até obter um molho homogéneo e ligeiramente espesso.",\
+&#x20;     "Adicionar o leite em pequenas quantidades, incorporando completamente cada porção antes de juntar a seguinte. O molho deve cobrir levemente as costas de uma colher, mas continuar a escorrer."\
+&#x20;   ],\
+&#x20;   [\
+&#x20;     "Finalizar o molho de mostarda e estragão",\
+&#x20;     "Depois de retirar o frango, eliminar o excesso de gordura da frigideira, mantendo os resíduos dourados que não estejam queimados. Acrescentar 1–2 colheres de sopa de água quente e raspar suavemente o fundo para libertar os sucos caramelizados. Juntar a base do molho e misturar. Reduzir o lume ao mínimo e incorporar a mostarda Dijon e o estragão seco. Provar antes de acrescentar sal. Se necessário, adicionar algumas gotas de sumo de limão. Ajustar a consistência com um pouco de leite quente.",\
+&#x20;     "Incorporar a mostarda e o estragão perto do final para preservar os aromas. Evitar deixar ferver vigorosamente. O molho deve ficar liso, cremoso e suficientemente fluido para escorrer da colher."\
+&#x20;   ],\
+&#x20;   [\
+&#x20;     "Empratar e servir",\
+&#x20;     "Soltar o arroz de ervilhas com um garfo e distribuir pelos pratos. Colocar a curgete salteada ao lado. Dispor as sobrecoxas inteiras ou cortadas em duas ou três fatias largas. Colocar 2–3 colheres de sopa do molho sobre a carne e servir o restante à parte.",\
+&#x20;     "Manter o molho sobretudo sobre a carne, deixando o arroz e a curgete preservar os respetivos sabores e texturas. Servir imediatamente, com o frango suculento e o molho quente."\
+&#x20;   ]\
+&#x20; ],\
+&#x20; "detalhes": [\
+&#x20;   {\
+&#x20;     "usa": [1, 2, 10, 11],\
+&#x20;     "ponto": "Os grãos de arroz estão cozidos, mas separados, sem excesso de água no fundo do tacho. As ervilhas estão macias e apresentam uma cor verde viva.",\
+&#x20;     "porque": "A cozedura tapada permite hidratar o arroz de forma uniforme. O repouso final favorece a redistribuição da humidade. Adicionar as ervilhas perto do fim evita que fiquem demasiado cozidas.",\
+&#x20;     "corrigir": "Se o arroz estiver duro e seco, acrescentar um pouco de água quente, tapar e cozinhar mais alguns minutos. Se estiver demasiado húmido, deixar repousar brevemente sem tampa. Se as ervilhas estiverem rijas, prolongar ligeiramente a cozedura."\
+&#x20;   },\
+&#x20;   {\
+&#x20;     "usa": [0, 11, 12],\
+&#x20;     "ponto": "As sobrecoxas apresentam espessura relativamente uniforme e superfície seca, estando temperadas dos dois lados.",\
+&#x20;     "porque": "A espessura uniforme facilita uma cozedura homogénea. A superfície seca permite que a frigideira desenvolva uma crosta dourada em vez de cozinhar a carne no vapor libertado.",\
+&#x20;     "corrigir": "Se algumas peças forem muito mais grossas, abrir cuidadosamente as zonas mais espessas. Se a superfície estiver húmida, secar novamente com papel de cozinha. Se houver peças muito pequenas, acompanhar individualmente a temperatura durante a confeção."\
+&#x20;   },\
+&#x20;   {\
+&#x20;     "usa": [3, 4, 11, 12],\
+&#x20;     "ponto": "A curgete apresenta algumas superfícies douradas, mantém a forma e oferece ligeira resistência à dentada, sem se desfazer.",\
+&#x20;     "porque": "A curgete contém uma elevada proporção de água. O lume médio-alto e o espaço entre os pedaços permitem evaporar parte da humidade e desenvolver aromas tostados.",\
+&#x20;     "corrigir": "Se começar a libertar muita água, aumentar ligeiramente o lume e deixar evaporar sem tapar. Se estiver demasiado mole, retirar imediatamente da frigideira. Se não ganhar cor, evitar mexer e deixar a superfície em contacto com a frigideira durante mais algum tempo."\
+&#x20;   },\
+&#x20;   {\
+&#x20;     "usa": [0, 4, 11, 12],\
+&#x20;     "ponto": "As sobrecoxas apresentam uma superfície dourada e atingem pelo menos 74 °C no centro da parte mais espessa. Para uma textura mais tenra, podem atingir aproximadamente 78–82 °C, sem perder demasiada humidade.",\
+&#x20;     "porque": "As sobrecoxas contêm mais gordura intramuscular e tecido conjuntivo do que o peito de frango, tornando-as mais tolerantes à confeção. Uma temperatura superior à mínima de segurança pode melhorar a textura desta peça.",\
+&#x20;     "corrigir": "Se a superfície escurecer antes de o interior atingir a temperatura pretendida, reduzir o lume e tapar parcialmente. Se algumas peças estiverem prontas antes das restantes, retirá-las individualmente. Se a carne ficar seca, cortar em fatias e servir com um pouco mais de molho."\
+&#x20;   },\
+&#x20;   {\
+&#x20;     "usa": [5, 6, 7],\
+&#x20;     "ponto": "A base do molho apresenta textura homogénea, sem grumos, cobre ligeiramente as costas de uma colher e continua a escorrer com facilidade.",\
+&#x20;     "porque": "A farinha cozinhada na manteiga perde o sabor cru. Durante o aquecimento com o leite, o amido gelatiniza e confere estrutura ao molho, criando uma base cremosa sem necessidade de natas.",\
+&#x20;     "corrigir": "Se surgirem grumos, mexer vigorosamente com a vara de arames. Se estiver demasiado espesso, acrescentar leite morno em pequenas quantidades. Se estiver muito líquido, cozinhar durante mais 1–2 minutos em lume brando, mexendo continuamente."\
+&#x20;   },\
+&#x20;   {\
+&#x20;     "usa": [0, 7, 8, 9, 11, 12, 13],\
+&#x20;     "ponto": "O molho apresenta textura lisa, ligeiramente brilhante e fluida. A mostarda é percetível, mas não domina, e o estragão acrescenta uma nota aromática delicada.",\
+&#x20;     "porque": "Os resíduos dourados da frigideira resultam da reação de Maillard e acrescentam profundidade ao molho. A mostarda contribui com acidez e intensidade, enquanto o estragão fornece notas aromáticas ligeiramente anisadas.",\
+&#x20;     "corrigir": "Se a mostarda estiver demasiado intensa, acrescentar um pouco de leite. Se o estragão dominar, diluir com mais base de molho. Se estiver espesso, juntar leite quente aos poucos. Se estiver líquido, deixar apurar brevemente em lume brando. Não utilizar resíduos queimados da frigideira, pois podem conferir amargor."\
+&#x20;   },\
+&#x20;   {\
+&#x20;     "usa": [0, 1, 2, 3, 7, 8, 9, 11, 12, 13],\
+&#x20;     "ponto": "O frango está quente e suculento, o arroz apresenta grãos separados, a curgete mantém alguma firmeza e o molho está cremoso e fluido.",\
+&#x20;     "porque": "A distribuição moderada do molho permite equilibrar a cremosidade e a acidez da mostarda com o sabor do frango e a frescura dos acompanhamentos, preservando o contraste entre as diferentes texturas.",\
+&#x20;     "corrigir": "Se o molho engrossar durante o empratamento, aquecer suavemente com um pouco de leite. Se o arroz estiver compacto, soltar cuidadosamente com um garfo. Se a curgete arrefecer, aquecer brevemente na frigideira. Se o frango estiver seco, servir em fatias com um pouco mais de molho."\
+&#x20;   }\
+&#x20; ],\
+&#x20; "complemento": {\
+&#x20;   "nome": "Alternativas e ajustes do molho",\
+&#x20;   "nota": "O estragão seco e a mostarda Dijon dão ao molho o seu perfil aromático característico. Podem ser substituídos, embora o resultado tenha um sabor diferente.",\
+&#x20;   "indices": [7, 8, 9, 13],\
+&#x20;   "passos": [\
+&#x20;     "Se não houver estragão, utilizar uma colher de chá de salsa fresca picada para a receita-base de duas pessoas. Adicionar a salsa apenas no final, fora do lume, para preservar a frescura.",\
+&#x20;     "Se não houver mostarda Dijon, utilizar mostarda corrente. Começar com uma colher de chá para duas pessoas, provar e aumentar gradualmente, porque algumas variedades são mais doces ou ácidas.",\
+&#x20;     "Se o molho ficar demasiado espesso, acrescentar leite quente, uma colher de sopa de cada vez, até recuperar a consistência pretendida.",\
+&#x20;     "Se for necessária mais acidez, adicionar algumas gotas de sumo de limão depois de incorporar a mostarda. Provar antes de acrescentar mais, para não desequilibrar o molho."\
+&#x20;   ],\
+&#x20;   "dica": "O molho deve complementar o frango, não dominar o prato. Começar com quantidades moderadas de mostarda e estragão e ajustar apenas depois de provar. Aproveitar os sucos dourados da frigideira, desde que não estejam queimados, acrescenta profundidade ao sabor."\
+&#x20; }\
+}
