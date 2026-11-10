@@ -1,0 +1,266 @@
+
+{
+  "versao": 1,
+  "id": "salmao-salsa-limao",
+  "slug": "salmao-salsa-limao",
+  "ordem": 15,
+  "nome": "Salmão com molho de salsa e limão, cuscuz e curgete",
+  "descricao": "Lombos de salmão acompanhados por um molho leve de salsa e limão. A frescura das ervas e a acidez do limão equilibram a gordura natural do peixe, enquanto o cuscuz com curgete completa o prato sem o tornar pesado.",
+  "imagem": null,
+  "categorias": [
+    "Pratos principais",
+    "Peixe"
+  ],
+  "etiquetas": [
+    "Salmão",
+    "Molho de salsa",
+    "Limão",
+    "Cuscuz",
+    "Forno"
+  ],
+  "porcoes": 2,
+  "minutos": 35,
+  "preparacao": 10,
+  "cozedura": 25,
+  "equipamento": [
+    "Forno",
+    "Travessa de forno",
+    "Frigideira",
+    "Tacho pequeno",
+    "Taça resistente ao calor",
+    "Vara de arames",
+    "Garfo",
+    "Faca de cozinha",
+    "Tábua de corte",
+    "Termómetro de cozinha"
+  ],
+  "ingredientes": [
+    {
+      "nome": "Lombos de salmão",
+      "quantidade": 330,
+      "unidade": "g",
+      "componente": "Peixe",
+      "notas": "2 lombos de 150–180 g cada, preferencialmente com pele",
+      "opcional": false
+    },
+    {
+      "nome": "Cuscuz",
+      "quantidade": 120,
+      "unidade": "g",
+      "componente": "Cuscuz com curgete",
+      "notas": "Cuscuz de hidratação rápida",
+      "opcional": false
+    },
+    {
+      "nome": "Curgete",
+      "quantidade": 250,
+      "unidade": "g",
+      "componente": "Cuscuz com curgete",
+      "notas": "Uma curgete média, cortada em meias-luas",
+      "opcional": false
+    },
+    {
+      "nome": "Água",
+      "quantidade": 140,
+      "unidade": "ml",
+      "componente": "Cuscuz com curgete",
+      "notas": "Pode substituir-se por caldo de legumes; ajustar às instruções da embalagem",
+      "opcional": false
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": 15,
+      "unidade": "ml",
+      "componente": null,
+      "notas": "Reservar um pouco para untar a travessa e dividir o restante entre a curgete e o cuscuz",
+      "opcional": false
+    },
+    {
+      "nome": "Sal",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": null,
+      "notas": "Para temperar salmão, cuscuz, curgete e molho",
+      "opcional": false
+    },
+    {
+      "nome": "Pimenta-preta",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": null,
+      "notas": "Preferencialmente moída na altura",
+      "opcional": false
+    },
+    {
+      "nome": "Manteiga",
+      "quantidade": 10,
+      "unidade": "g",
+      "componente": "Molho de salsa e limão",
+      "notas": "Para preparar o roux",
+      "opcional": false
+    },
+    {
+      "nome": "Farinha de trigo",
+      "quantidade": 10,
+      "unidade": "g",
+      "componente": "Molho de salsa e limão",
+      "notas": "Farinha sem fermento",
+      "opcional": false
+    },
+    {
+      "nome": "Leite meio-gordo",
+      "quantidade": 200,
+      "unidade": "ml",
+      "componente": "Molho de salsa e limão",
+      "notas": "Aquecer antes de incorporar; reservar um pouco mais para ajustar a consistência",
+      "opcional": false
+    },
+    {
+      "nome": "Salsa fresca",
+      "quantidade": 3,
+      "unidade": "colher de sopa",
+      "componente": "Molho de salsa e limão",
+      "notas": "2–3 colheres de sopa, picada finamente",
+      "opcional": false
+    },
+    {
+      "nome": "Sumo de limão",
+      "quantidade": 5,
+      "unidade": "ml",
+      "componente": "Molho de salsa e limão",
+      "notas": "Aproximadamente 1 colher de chá",
+      "opcional": false
+    },
+    {
+      "nome": "Raspa de limão",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": "Molho de salsa e limão",
+      "notas": "Um pouco de raspa fina, apenas da parte amarela",
+      "opcional": false
+    }
+  ],
+  "antes": [
+    "Se utilizar salmão congelado, descongelar completamente no frigorífico e secar cuidadosamente antes de cozinhar.",
+    "Lavar e cortar a curgete em meias-luas de espessura semelhante.",
+    "Lavar, secar e picar finamente a salsa. Preparar a raspa e o sumo de limão.",
+    "Medir os ingredientes do molho e aquecer ligeiramente o leite.",
+    "Aquecer o forno a 190 °C. Colocar o salmão no forno primeiro e preparar os acompanhamentos e o molho enquanto cozinha.",
+    "Ter um termómetro de cozinha disponível para controlar a temperatura interna do salmão."
+  ],
+  "passos": [
+    [
+      "Preparar o salmão",
+      "Aquecer o forno a 190 °C. Secar os lombos de salmão com papel de cozinha e temperar com sal e pimenta-preta. Colocar numa travessa ligeiramente untada com azeite, com a pele voltada para baixo.",
+      "Secar a superfície reduz a humidade excessiva durante a cozedura. Manter a pele voltada para baixo ajuda a proteger a parte inferior do lombo."
+    ],
+    [
+      "Assar o salmão",
+      "Levar o salmão ao forno durante aproximadamente 10–14 minutos, conforme a espessura. Para uma textura mais suculenta e um centro menos cozinhado, retirar quando atingir cerca de 52–55 °C. Para uma cozedura mais completa e conservadora em termos de segurança alimentar, atingir 63 °C no centro.",
+      "Introduzir o termómetro lateralmente na parte mais espessa. O tempo é apenas indicativo; a temperatura interna é a melhor referência para controlar o ponto."
+    ],
+    [
+      "Saltear a curgete",
+      "Cortar a curgete em meias-luas. Aquecer aproximadamente metade do azeite destinado aos acompanhamentos numa frigideira em lume médio-alto. Saltear durante 5–7 minutos, virando ocasionalmente, até dourar ligeiramente e ficar tenra. Temperar com sal e pimenta.",
+      "Evitar sobrecarregar a frigideira para permitir a evaporação da água. A curgete deve manter alguma firmeza e não se desfazer."
+    ],
+    [
+      "Hidratar o cuscuz",
+      "Colocar o cuscuz numa taça resistente ao calor com uma pitada de sal e o azeite reservado. Verter os 140 ml de água ou caldo de legumes a ferver, tapar e deixar hidratar durante aproximadamente 5 minutos. Soltar os grãos com um garfo e envolver a curgete salteada.",
+      "Não mexer durante a hidratação. Soltar com um garfo no final para separar os grãos sem os esmagar."
+    ],
+    [
+      "Preparar o roux",
+      "Derreter a manteiga num tacho pequeno em lume brando. Adicionar a farinha e mexer continuamente durante 1–2 minutos, sem deixar ganhar cor.",
+      "Manter o roux claro para preservar a delicadeza do molho e evitar sabores tostados que possam competir com a salsa e o limão."
+    ],
+    [
+      "Preparar o béchamel",
+      "Adicionar gradualmente o leite aquecido ao roux, mexendo continuamente com uma vara de arames. Cozinhar em lume brando durante 3–4 minutos, até obter um molho liso e ligeiramente espesso.",
+      "Adicionar o leite em pequenas porções no início, mexendo até homogeneizar. O molho deve ficar relativamente fluido para não dominar o salmão."
+    ],
+    [
+      "Incorporar a salsa e o limão",
+      "Retirar o tacho do lume. Adicionar a salsa fresca picada, o sumo e a raspa de limão. Temperar com pimenta-preta e provar antes de acrescentar sal. Misturar até distribuir uniformemente os ingredientes.",
+      "Não deixar o molho ferver depois de adicionar a salsa. O calor excessivo reduz a frescura aromática e pode alterar a cor das ervas."
+    ],
+    [
+      "Ajustar a consistência do molho",
+      "Verificar se o molho cobre levemente as costas de uma colher e escorre de forma contínua. Se estiver demasiado espesso, adicionar leite quente, uma colher de sopa de cada vez. Se estiver demasiado líquido, corrigir a consistência antes de juntar a salsa, deixando apurar em lume brando.",
+      "O molho engrossa ligeiramente enquanto espera. Ajustar a textura perto do momento de servir e evitar fervura depois de incorporar as ervas."
+    ],
+    [
+      "Empratar e servir",
+      "Distribuir o cuscuz com curgete pelos pratos. Colocar o salmão por cima ou ao lado e servir aproximadamente 2 colheres de sopa de molho de salsa e limão por pessoa. Apresentar o restante molho à parte.",
+      "Utilizar o molho com moderação para equilibrar a gordura natural do salmão sem esconder o sabor do peixe."
+    ]
+  ],
+  "detalhes": [
+    {
+      "usa": [0, 4, 5, 6],
+      "ponto": "Lombos de salmão com superfície seca, tempero distribuído e pele voltada para baixo na travessa.",
+      "porque": "A remoção da humidade superficial reduz a libertação de água durante a cozedura. A pele funciona como uma camada protetora entre a carne e a travessa quente.",
+      "corrigir": "Se o peixe estiver muito húmido, secar novamente com papel de cozinha. Se os lombos tiverem espessuras diferentes, verificar o ponto de cada um separadamente."
+    },
+    {
+      "usa": [0],
+      "ponto": "Para textura mais suculenta, centro a 52–55 °C, ainda ligeiramente translúcido. Para cozedura mais completa, centro a 63 °C e carne opaca que se separa em lascas.",
+      "porque": "O calor desnatura as proteínas do peixe. Temperaturas mais elevadas aumentam a contração das proteínas e a expulsão de água. A referência conservadora de segurança alimentar para peixe é 63 °C.",
+      "corrigir": "Se o centro ainda estiver abaixo da temperatura pretendida, prolongar a cozedura em intervalos de 1–2 minutos. Se estiver demasiado seco, evitar aquecer mais e servir com um pouco de molho."
+    },
+    {
+      "usa": [2, 4, 5, 6],
+      "ponto": "Curgete ligeiramente dourada, tenra, mas ainda firme e sem excesso de líquido.",
+      "porque": "O calor relativamente elevado favorece a evaporação da água superficial e o desenvolvimento de sabor, enquanto a cozedura curta limita a perda de estrutura.",
+      "corrigir": "Se libertar demasiada água, aumentar ligeiramente o lume e evitar sobrecarregar a frigideira. Se estiver demasiado firme, prolongar a cozedura por intervalos de 1 minuto."
+    },
+    {
+      "usa": [1, 2, 3, 4, 5],
+      "ponto": "Cuscuz hidratado, com grãos soltos e macios, sem líquido acumulado. Curgete distribuída uniformemente.",
+      "porque": "A água quente hidrata e amolece os grãos de cuscuz. O repouso tapado permite uma absorção uniforme, enquanto a separação com um garfo reduz a formação de aglomerados.",
+      "corrigir": "Se estiver seco, adicionar uma pequena quantidade de água quente e repousar mais 1–2 minutos. Se estiver demasiado húmido, soltar com um garfo e deixar destapado durante alguns minutos."
+    },
+    {
+      "usa": [7, 8],
+      "ponto": "Roux claro, homogéneo e ligeiramente espumoso, sem cheiro intenso a farinha crua.",
+      "porque": "A gordura envolve as partículas de farinha e a cozedura inicial reduz o sabor cru, preparando o amido para engrossar o leite.",
+      "corrigir": "Se começar a ganhar cor, reduzir imediatamente o lume. Se queimar ou desenvolver cheiro amargo, descartar e recomeçar."
+    },
+    {
+      "usa": [7, 8, 9],
+      "ponto": "Béchamel liso, sem grumos, ligeiramente espesso, mas ainda fluido.",
+      "porque": "O aquecimento provoca a gelatinização do amido da farinha, aumentando a viscosidade. A adição gradual do leite favorece uma dispersão homogénea.",
+      "corrigir": "Se surgirem grumos, mexer vigorosamente com a vara de arames ou passar por um passador fino. Se engrossar demasiado, adicionar pequenas quantidades de leite quente."
+    },
+    {
+      "usa": [10, 11, 12, 5, 6],
+      "ponto": "Molho homogéneo, com salsa verde visível, aroma fresco e acidez discreta de limão.",
+      "porque": "A salsa contém compostos aromáticos sensíveis ao calor. A adição fora do lume ajuda a preservar a cor e o aroma. O limão acrescenta acidez que equilibra a gordura do salmão.",
+      "corrigir": "Se o molho estiver demasiado ácido, adicionar um pouco de leite. Se a salsa perder intensidade, juntar uma pequena quantidade de salsa fresca no final."
+    },
+    {
+      "usa": [9, 10],
+      "ponto": "Molho que cobre levemente as costas de uma colher e escorre numa camada contínua.",
+      "porque": "A viscosidade resulta da gelatinização do amido e tende a aumentar ligeiramente durante o arrefecimento.",
+      "corrigir": "Se estiver espesso, acrescentar leite quente em incrementos de aproximadamente 15 ml. Se estiver líquido, reduzir suavemente antes de adicionar a salsa."
+    },
+    {
+      "usa": [0, 1, 2, 10],
+      "ponto": "Salmão suculento, cuscuz solto, curgete ligeiramente firme e molho distribuído moderadamente.",
+      "porque": "A combinação de gordura natural do peixe, acidez do limão, frescura da salsa e textura leve do cuscuz produz um prato equilibrado.",
+      "corrigir": "Se o molho engrossar antes de servir, adicionar um pouco de leite quente. Se o cuscuz estiver compacto, soltar novamente com um garfo."
+    }
+  ],
+  "complemento": {
+    "nome": "Alternativas ao salmão e à salsa fresca",
+    "nota": "O salmão pode ser substituído por lombos de pescada ou filetes de dourada. A salsa fresca pode ser substituída por salsa congelada, desde que esteja descongelada e bem escorrida antes de ser incorporada no molho.",
+    "indices": [0, 10],
+    "passos": [
+      "Se utilizar pescada ou dourada, ajustar o tempo de forno à espessura dos filetes e verificar a temperatura interna.",
+      "Se utilizar salsa congelada, descongelar completamente e escorrer bem o excesso de água.",
+      "Adicionar a salsa descongelada ao molho fora do lume, tal como faria com salsa fresca.",
+      "Provar e ajustar o limão e os temperos antes de servir."
+    ],
+    "dica": "Peixes brancos são geralmente mais magros do que o salmão e podem secar mais facilmente. Controlar cuidadosamente a cozedura e evitar excesso de molho."
+  }
+}

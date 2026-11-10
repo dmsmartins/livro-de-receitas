@@ -1,0 +1,354 @@
+{
+  "versao": 1,
+  "id": "robalo-pele-crocante-risotto-limao",
+  "slug": "robalo-pele-crocante-risotto-limao",
+  "ordem": 13,
+  "nome": "Robalo com pele crocante e risotto de limão",
+  "descricao": "Filetes de robalo dourados na frigideira, com pele estaladiça e interior suculento, sobre risotto cremoso de limão. A cabeça e as espinhas podem ser aproveitadas num caldo rápido para dar profundidade ao arroz sem esconder a delicadeza do peixe.",
+  "imagem": null,
+  "categorias": [
+    "Pratos principais",
+    "Peixe"
+  ],
+  "etiquetas": [
+    "Robalo",
+    "Risotto",
+    "Limão",
+    "Pele crocante",
+    "Caldo caseiro"
+  ],
+  "porcoes": 2,
+  "minutos": 60,
+  "preparacao": 20,
+  "cozedura": 40,
+  "equipamento": [
+    "Faca de filetar ou faca afiada",
+    "Pinça para espinhas",
+    "Papel absorvente",
+    "Tacho para o caldo",
+    "Passador fino",
+    "Tacho largo para o risotto",
+    "Frigideira antiaderente ou de aço bem preparada",
+    "Espátula",
+    "Concha",
+    "Termómetro culinário (recomendado)"
+  ],
+  "ingredientes": [
+    {
+      "nome": "Filetes de robalo com pele",
+      "quantidade": 2,
+      "unidade": "unidade",
+      "componente": "Robalo",
+      "notas": "Os dois lados de um robalo, limpos e sem espinhas; idealmente 150–200 g cada.",
+      "opcional": false
+    },
+    {
+      "nome": "Cabeça e espinhas de robalo",
+      "quantidade": 1,
+      "unidade": "conjunto",
+      "componente": "Caldo caseiro",
+      "notas": "Aproveitamento do próprio peixe; retirar as guelras, descartar vísceras e remover resíduos de sangue.",
+      "opcional": true
+    },
+    {
+      "nome": "Água para o caldo",
+      "quantidade": 900,
+      "unidade": "ml",
+      "componente": "Caldo caseiro",
+      "notas": "Começar com 900 ml; juntar um pouco mais se necessário para obter cerca de 700 ml de caldo coado.",
+      "opcional": true
+    },
+    {
+      "nome": "Cebola para o caldo",
+      "quantidade": 0.5,
+      "unidade": "unidade",
+      "componente": "Caldo caseiro",
+      "notas": "Cebola pequena, cortada grosseiramente.",
+      "opcional": true
+    },
+    {
+      "nome": "Alho-francês para o caldo",
+      "quantidade": 0.25,
+      "unidade": "unidade",
+      "componente": "Caldo caseiro",
+      "notas": "Só a parte branca, bem lavada.",
+      "opcional": true
+    },
+    {
+      "nome": "Caldo de peixe ou de legumes",
+      "quantidade": 700,
+      "unidade": "ml",
+      "componente": "Risotto",
+      "notas": "Usar o caldo caseiro coado, se o preparares, ou um caldo pronto pouco salgado; manter quente. Poderá não ser necessário usar tudo.",
+      "opcional": false
+    },
+    {
+      "nome": "Arroz Carnaroli",
+      "quantidade": 160,
+      "unidade": "g",
+      "componente": "Risotto",
+      "notas": "Não lavar.",
+      "opcional": false
+    },
+    {
+      "nome": "Chalota",
+      "quantidade": 1,
+      "unidade": "unidade",
+      "componente": "Risotto",
+      "notas": "Pequena, picada finamente.",
+      "opcional": false
+    },
+    {
+      "nome": "Azeite para o risotto",
+      "quantidade": 10,
+      "unidade": "ml",
+      "componente": "Risotto",
+      "notas": "Cerca de 2 colheres de chá.",
+      "opcional": false
+    },
+    {
+      "nome": "Vinho branco seco",
+      "quantidade": 50,
+      "unidade": "ml",
+      "componente": "Risotto",
+      "notas": "Para deslaçar e acrescentar acidez.",
+      "opcional": false
+    },
+    {
+      "nome": "Manteiga fria para o risotto",
+      "quantidade": 30,
+      "unidade": "g",
+      "componente": "Risotto",
+      "notas": "Cortada em cubos; manter no frigorífico até ao fim.",
+      "opcional": false
+    },
+    {
+      "nome": "Parmesão ralado",
+      "quantidade": 15,
+      "unidade": "g",
+      "componente": "Risotto",
+      "notas": "Acrescentar gradualmente, para não dominar o sabor do robalo.",
+      "opcional": false
+    },
+    {
+      "nome": "Raspa de limão",
+      "quantidade": 0.5,
+      "unidade": "unidade",
+      "componente": "Risotto",
+      "notas": "Raspa fina de meio limão, apenas a parte amarela.",
+      "opcional": false
+    },
+    {
+      "nome": "Sumo de limão",
+      "quantidade": 10,
+      "unidade": "ml",
+      "componente": "Risotto",
+      "notas": "Adicionar primeiro 7–8 ml, provar e ajustar até 10 ml.",
+      "opcional": false
+    },
+    {
+      "nome": "Azeite para o robalo",
+      "quantidade": 10,
+      "unidade": "ml",
+      "componente": "Robalo",
+      "notas": "Usar numa frigideira bem quente, sem deixar fumar.",
+      "opcional": false
+    },
+    {
+      "nome": "Manteiga para o robalo",
+      "quantidade": 10,
+      "unidade": "g",
+      "componente": "Robalo",
+      "notas": "Juntar só perto do final da cozedura.",
+      "opcional": false
+    },
+    {
+      "nome": "Alho esmagado",
+      "quantidade": 1,
+      "unidade": "dente",
+      "componente": "Robalo",
+      "notas": "Com casca, levemente esmagado.",
+      "opcional": false
+    },
+    {
+      "nome": "Tomilho fresco",
+      "quantidade": 1,
+      "unidade": "ramo",
+      "componente": "Robalo",
+      "notas": "Para aromatizar a manteiga.",
+      "opcional": false
+    },
+    {
+      "nome": "Sal",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": null,
+      "notas": "Temperar gradualmente, tendo em conta o sal do caldo e do parmesão.",
+      "opcional": false
+    },
+    {
+      "nome": "Pimenta-preta",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": null,
+      "notas": "Moída na altura; preferencialmente no risotto.",
+      "opcional": false
+    }
+  ],
+  "antes": [
+    "Se o robalo ainda estiver aberto em duas metades, retira com a faca as espinhas das costelas e as membranas duras da barriga, sem desperdiçar a carne. Passa os dedos pela linha central de cada filete e retira as espinhas remanescentes com uma pinça.",
+    "Mantém a pele nos dois filetes. Seca-a cuidadosamente e guarda o peixe no frigorífico, idealmente destapado sobre um prato limpo, até ao momento de cozinhar.",
+    "Se preparares o caldo caseiro, retira as guelras da cabeça, descarta as vísceras e limpa coágulos de sangue junto à espinha; não juntes estes resíduos ao tacho.",
+    "Pica a chalota, mede o arroz, o vinho e o parmesão. Rala o limão sem atingir a parte branca e deixa a manteiga do risotto fria. Aquece os pratos antes de servir.",
+    "Planeia a sequência: primeiro o caldo (20–25 minutos), depois o risotto (18–20 minutos). Começa o peixe quando faltarem 6–8 minutos para o arroz terminar."
+  ],
+  "passos": [
+    [
+      "Finalizar a limpeza dos filetes",
+      "Separa os dois filetes dos restos de espinha. Remove as espinhas da zona das costelas com uma faca rente aos ossos; passa o dedo ao longo da carne e retira as espinhas pequenas com uma pinça. Apara membranas e barbatanas. Mantém a pele, seca muito bem com papel absorvente e reserva no frigorífico.",
+      "Evita lavar os filetes em água corrente. Se for indispensável passá-los por água para retirar resíduos, seca-os imediatamente e muito bem, sobretudo a pele."
+    ],
+    [
+      "Preparar um caldo rápido de robalo",
+      "Retira as guelras e os vestígios de sangue da cabeça e das espinhas. Coloca-os num tacho com a cebola, o alho-francês e 900 ml de água fria. Aquece lentamente até começar a fervilhar, retira a espuma e mantém 20–25 minutos em lume brando, sem ferver intensamente. Coa num passador fino. Mede cerca de 700 ml e mantém quente. Se não fizeres o caldo, aquece 700 ml de caldo de peixe ou legumes pouco salgado.",
+      "Não fervas violentamente nem prolongues muito a extração: o caldo pode ficar turvo e ganhar notas amargas. Não uses guelras ou vísceras."
+    ],
+    [
+      "Preparar os ingredientes do risotto",
+      "Pica a chalota finamente, mede o arroz e o vinho, rala o parmesão e prepara a raspa e o sumo de limão em recipientes separados. Corta a manteiga do risotto em cubos e mantém-na fria. Deixa uma concha no caldo quente.",
+      "A mise en place é essencial: o risotto exige atenção e, quando entrar o peixe na frigideira, não haverá tempo para pesar ingredientes."
+    ],
+    [
+      "Refogar a chalota e tostar o arroz",
+      "Num tacho largo, aquece 10 ml de azeite em lume médio-baixo. Junta a chalota e cozinha 2–3 minutos sem alourar. Acrescenta os 160 g de arroz, sem lavar, e envolve durante cerca de 2 minutos, até os grãos ficarem quentes e ligeiramente translúcidos nas extremidades.",
+      "Não procures cor castanha no arroz ou na chalota. A tostagem é suave para preservar o sabor delicado do limão e do peixe."
+    ],
+    [
+      "Juntar o vinho e cozinhar o risotto",
+      "Junta o vinho e deixa reduzir quase totalmente. Adiciona uma ou duas conchas de caldo quente e mantém fervura suave; mexe com frequência, repondo caldo antes de o arroz secar. Continua durante aproximadamente 16–20 minutos, provando a partir dos 16. Guarda algum caldo para o ajuste final.",
+      "Não deixes o tacho secar entre adições. Procura grãos tenros por fora e com ligeira resistência no centro; o risotto ainda deve ter líquido em volta."
+    ],
+    [
+      "Dourar o robalo sobre a pele",
+      "Quando faltarem 6–8 minutos para o risotto acabar, tempera os filetes com sal. Aquece 10 ml de azeite numa frigideira em lume médio-alto. Coloca os filetes com a pele para baixo e pressiona delicadamente com uma espátula durante 15–20 segundos para impedir que enrolem. Mantém-nos sobretudo do lado da pele durante 3–5 minutos, ajustando à espessura, até esta ficar dourada e crocante.",
+      "Não movas o peixe antes de a pele se soltar com facilidade. Se o lume estiver demasiado forte e a pele escurecer rapidamente, reduz ligeiramente."
+    ],
+    [
+      "Acabar a cozedura do peixe com manteiga aromática",
+      "Vira os filetes com cuidado, reduz para lume médio-baixo e junta a manteiga, o alho esmagado e o tomilho. Inclina ligeiramente a frigideira e rega o lado da carne com a manteiga espumosa, durante cerca de 30–90 segundos em filetes finos; filetes mais grossos podem precisar de mais tempo. Confirma, idealmente com termómetro, que o centro atinge 63 °C. Retira de imediato e deixa a pele virada para cima, sem a tapar.",
+      "A manteiga deve espumar sem ficar negra. Se os filetes forem finos, o calor residual pode terminar rapidamente a cozedura: usa a temperatura interna, não apenas o relógio."
+    ],
+    [
+      "Emulsionar o risotto fora do lume",
+      "Com o arroz al dente e ainda húmido, desliga o lume. Junta os 30 g de manteiga fria, o parmesão aos poucos e a raspa de meio limão. Mexe energicamente, abanando o tacho se necessário. Adiciona primeiro 7–8 ml de sumo de limão, prova e ajusta até 10 ml. Corrige o sal e a pimenta. Se estiver muito espesso, junta caldo quente pouco a pouco.",
+      "A manteiga fria e a agitação criam uma emulsão brilhante. O arroz deve formar uma onda quando agitas o tacho (all’onda); o limão deve avivar o sabor sem se impor."
+    ],
+    [
+      "Servir imediatamente",
+      "Deixa o risotto repousar cerca de 30–60 segundos, sem o deixar secar. Distribui-o pelos dois pratos aquecidos, dando uma pancada suave no fundo de cada prato para se espalhar. Coloca um filete por cima, com a pele virada para cima, e serve imediatamente.",
+      "Evita deitar manteiga ou molho sobre a pele crocante. Se o risotto espessar antes de servir, restitui-lhe fluidez com uma pequena quantidade de caldo quente."
+    ]
+  ],
+  "detalhes": [
+    {
+      "usa": [
+        0,
+        1
+      ],
+      "ponto": "Filetes sem espinhas perceptíveis ao toque, superfície da pele seca e inteira.",
+      "porque": "As espinhas arruínam a textura e a humidade impede que a pele fique crocante.",
+      "corrigir": "Se encontrares espinhas ao passar o dedo, retira-as individualmente; se a pele humedecer no frigorífico, volta a secar antes de cozinhar."
+    },
+    {
+      "usa": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ponto": "Caldo leve, límpido, com aroma marinho limpo, sem amargor; suficiente para cerca de 700 ml.",
+      "porque": "A extração curta dissolve compostos de sabor sem libertar sabores agressivos das guelras e da fervura intensa.",
+      "corrigir": "Se obtiveres menos de 700 ml, completa com água quente ou caldo suave. Se estiver excessivamente salgado, dilui antes de começar o arroz."
+    },
+    {
+      "usa": [
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "ponto": "Tudo medido e pronto; caldo quente no tacho ao lado; manteiga do risotto fria.",
+      "porque": "Organizar antes da cozedura permite controlar simultaneamente o arroz e os filetes.",
+      "corrigir": "Se ainda não tiveres tudo preparado, termina esta etapa antes de colocar o arroz no lume."
+    },
+    {
+      "usa": [
+        6,
+        7,
+        8
+      ],
+      "ponto": "Chalota macia e sem cor; arroz brilhante com as pontas translúcidas.",
+      "porque": "O refogado suave desenvolve a base aromática sem caramelização excessiva; a tostagem prepara os grãos para absorverem o caldo.",
+      "corrigir": "Se a chalota começar a dourar, reduz o lume. Se o arroz começar a agarrar, envolve e avança para o vinho."
+    },
+    {
+      "usa": [
+        5,
+        6,
+        9
+      ],
+      "ponto": "Vinho quase evaporado; arroz cremoso, al dente, com líquido visível em redor dos grãos.",
+      "porque": "O amido libertado durante a cozedura e a agitação forma a base cremosa do risotto.",
+      "corrigir": "Se o arroz estiver duro, junta mais caldo quente e prolonga 1–2 minutos; se estiver seco, junta caldo imediatamente e reduz o lume."
+    },
+    {
+      "usa": [
+        0,
+        14,
+        18
+      ],
+      "ponto": "Pele dourada e firme, que se liberta da frigideira sem rasgar; carne a tornar-se opaca de baixo para cima.",
+      "porque": "O contacto contínuo com a frigideira e a evaporação da água favorecem a crocância da pele.",
+      "corrigir": "Se a pele enrolar, pressiona apenas nos primeiros segundos. Se agarrar, dá-lhe mais alguns segundos antes de tentar levantar."
+    },
+    {
+      "usa": [
+        0,
+        15,
+        16,
+        17
+      ],
+      "ponto": "Manteiga a espumar sem queimar; carne opaca, húmida e temperatura interna de 63 °C no ponto mais espesso.",
+      "porque": "O acabamento curto limita a perda de água do peixe; a manteiga transporta aromas de alho e tomilho.",
+      "corrigir": "Se a manteiga escurecer, retira brevemente do lume e reduz a temperatura; se o peixe ainda não atingiu 63 °C, continua a cozinhar e volta a medir."
+    },
+    {
+      "usa": [
+        5,
+        10,
+        11,
+        12,
+        13,
+        18,
+        19
+      ],
+      "ponto": "Risotto brilhante, cremoso e fluido, que se espalha no prato; limão perceptível mas equilibrado.",
+      "porque": "A manteiga e o queijo emulsionam com o amido e o líquido do arroz; raspa fornece aroma e sumo fornece acidez.",
+      "corrigir": "Se estiver demasiado espesso, acrescenta caldo quente. Se estiver ácido, equilibra com um pouco mais de manteiga e caldo, em vez de mais queijo."
+    },
+    {
+      "usa": [
+        0,
+        5,
+        6
+      ],
+      "ponto": "Risotto espalhado numa camada cremosa; filetes no topo, pele seca e crocante.",
+      "porque": "Servir rapidamente evita que o amido continue a espessar o risotto e que o vapor amoleça a pele.",
+      "corrigir": "Se houver atraso, junta uma colher de caldo quente ao risotto e mexe; conserva o peixe com a pele voltada para cima e nunca o tapes."
+    }
+  ]
+}

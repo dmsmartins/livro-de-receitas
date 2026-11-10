@@ -1,0 +1,268 @@
+
+{
+  "versao": 1,
+  "id": "bife-molho-rabano-picante",
+  "slug": "bife-molho-rabano-picante",
+  "ordem": 14,
+  "nome": "Bife com molho de rábano-picante, batata-doce e feijão-verde",
+  "descricao": "Bifes de vazia ou alcatra acompanhados por um molho cremoso de rábano-picante. A doçura da batata-doce assada equilibra a intensidade do molho, enquanto o feijão-verde acrescenta frescura e leveza.",
+  "imagem": null,
+  "categorias": [
+    "Pratos principais",
+    "Carne de vaca"
+  ],
+  "etiquetas": [
+    "Molho de rábano",
+    "Bife",
+    "Batata-doce",
+    "Forno",
+    "Béchamel"
+  ],
+  "porcoes": 2,
+  "minutos": 40,
+  "preparacao": 10,
+  "cozedura": 30,
+  "equipamento": [
+    "Forno",
+    "Tabuleiro de forno",
+    "Frigideira pesada",
+    "Tacho pequeno",
+    "Panela",
+    "Vara de arames",
+    "Faca de cozinha",
+    "Tábua de corte",
+    "Termómetro de cozinha"
+  ],
+  "ingredientes": [
+    {
+      "nome": "Bifes de vazia",
+      "quantidade": 340,
+      "unidade": "g",
+      "componente": "Carne",
+      "notas": "2 bifes de 160–180 g cada, com aproximadamente 2 cm de espessura; podem ser substituídos por alcatra",
+      "opcional": false
+    },
+    {
+      "nome": "Batata-doce",
+      "quantidade": 400,
+      "unidade": "g",
+      "componente": "Batata-doce assada",
+      "notas": "Cortada em gomos de aproximadamente 2 cm",
+      "opcional": false
+    },
+    {
+      "nome": "Feijão-verde",
+      "quantidade": 250,
+      "unidade": "g",
+      "componente": "Feijão-verde",
+      "notas": "Arranjado, sem as extremidades",
+      "opcional": false
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": 15,
+      "unidade": "ml",
+      "componente": null,
+      "notas": "Metade para a batata-doce, parte para os bifes e algumas gotas para o feijão-verde",
+      "opcional": false
+    },
+    {
+      "nome": "Tomilho seco",
+      "quantidade": 0.5,
+      "unidade": "colher de chá",
+      "componente": "Batata-doce assada",
+      "notas": "Distribuir uniformemente pelos gomos",
+      "opcional": false
+    },
+    {
+      "nome": "Sal",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": null,
+      "notas": "Para temperar carne, batata-doce, feijão-verde e molho",
+      "opcional": false
+    },
+    {
+      "nome": "Pimenta-preta",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": null,
+      "notas": "Preferencialmente moída na altura",
+      "opcional": false
+    },
+    {
+      "nome": "Manteiga",
+      "quantidade": 12,
+      "unidade": "g",
+      "componente": "Molho de rábano-picante",
+      "notas": "Para preparar o roux",
+      "opcional": false
+    },
+    {
+      "nome": "Farinha de trigo",
+      "quantidade": 12,
+      "unidade": "g",
+      "componente": "Molho de rábano-picante",
+      "notas": "Farinha sem fermento",
+      "opcional": false
+    },
+    {
+      "nome": "Leite meio-gordo",
+      "quantidade": 200,
+      "unidade": "ml",
+      "componente": "Molho de rábano-picante",
+      "notas": "Aquecer antes de incorporar; reservar um pouco mais para ajustar a consistência",
+      "opcional": false
+    },
+    {
+      "nome": "Creme de rábano-picante",
+      "quantidade": 2,
+      "unidade": "colher de chá",
+      "componente": "Molho de rábano-picante",
+      "notas": "Começar com 1 colher de chá e acrescentar a segunda apenas se necessário",
+      "opcional": false
+    },
+    {
+      "nome": "Vinagre de sidra",
+      "quantidade": 0.5,
+      "unidade": "colher de chá",
+      "componente": "Molho de rábano-picante",
+      "notas": "Pode substituir-se por sumo de limão",
+      "opcional": false
+    }
+  ],
+  "antes": [
+    "Retirar os bifes do frigorífico aproximadamente 15 minutos antes da confeção, mantendo-os protegidos. Secar cuidadosamente a superfície antes de cozinhar.",
+    "Lavar e cortar a batata-doce em gomos de espessura semelhante, aproximadamente 2 cm.",
+    "Arranjar o feijão-verde, retirando as extremidades.",
+    "Medir os ingredientes do molho e aquecer ligeiramente o leite.",
+    "Aquecer o forno a 210 °C. Começar pela batata-doce e preparar os restantes elementos enquanto assa.",
+    "Ter um termómetro de cozinha disponível para verificar o ponto dos bifes."
+  ],
+  "passos": [
+    [
+      "Assar a batata-doce",
+      "Aquecer o forno a 210 °C. Cortar a batata-doce em gomos de aproximadamente 2 cm. Envolver com metade do azeite, tomilho, sal e pimenta. Distribuir num tabuleiro sem sobrepor e assar durante 25–30 minutos, virando a meio.",
+      "Deixar espaço entre os gomos para favorecer a evaporação da humidade e o dourado. Evitar cortes demasiado finos, que podem secar antes de desenvolver uma superfície dourada."
+    ],
+    [
+      "Preparar os bifes",
+      "Retirar os bifes do frigorífico aproximadamente 15 minutos antes da confeção. Secar bem com papel de cozinha e temperar com sal e pimenta-preta.",
+      "A superfície seca favorece a formação de uma crosta dourada. Evitar pressionar ou bater excessivamente os bifes."
+    ],
+    [
+      "Preparar o roux",
+      "Derreter a manteiga num tacho pequeno em lume brando. Adicionar a farinha e mexer continuamente durante 1–2 minutos, sem deixar alourar.",
+      "O roux deve permanecer claro para produzir um molho suave, sem notas tostadas que possam competir com o rábano."
+    ],
+    [
+      "Preparar o béchamel",
+      "Adicionar gradualmente o leite aquecido ao roux, mexendo continuamente com uma vara de arames. Cozinhar em lume brando durante 3–4 minutos, até obter um molho liso e ligeiramente espesso.",
+      "Adicionar o leite em pequenas porções no início, mexendo até homogeneizar. Não engrossar demasiado, porque o molho continuará a ganhar consistência enquanto espera."
+    ],
+    [
+      "Incorporar o rábano-picante",
+      "Retirar o tacho do lume. Adicionar primeiro 1 colher de chá de creme de rábano-picante e o vinagre de sidra. Misturar e provar. Se desejar um sabor mais intenso, acrescentar gradualmente a segunda colher de chá. Ajustar sal e pimenta.",
+      "Evitar ferver o molho depois de incorporar o rábano, porque os compostos aromáticos responsáveis pelo picante são voláteis e perdem intensidade com o calor prolongado."
+    ],
+    [
+      "Cozer o feijão-verde",
+      "Colocar o feijão-verde em água a ferver temperada com sal. Cozinhar durante 5–7 minutos, conforme a espessura. Escorrer quando estiver tenro, mas ainda firme, e temperar com algumas gotas de azeite.",
+      "Verificar a textura antes de escorrer. O feijão deve conservar alguma resistência à dentada e uma cor verde viva."
+    ],
+    [
+      "Alourar os bifes",
+      "Aquecer muito bem uma frigideira pesada. Adicionar o restante azeite e colocar os bifes sem os movimentar durante aproximadamente 2 minutos de cada lado. Se forem mais grossos, reduzir o lume e cozinhar mais 30–60 segundos de cada lado, conforme necessário.",
+      "Não movimentar os bifes constantemente. O contacto contínuo com a superfície quente favorece as reações de Maillard e a formação de uma crosta uniforme."
+    ],
+    [
+      "Verificar o ponto e repousar",
+      "Para um ponto médio, retirar os bifes quando a temperatura interna estiver aproximadamente entre 58 e 60 °C. Colocar num prato e deixar repousar durante 5 minutos antes de cortar.",
+      "Medir a temperatura no centro da parte mais espessa. O repouso permite alguma redistribuição dos sucos e pode provocar uma ligeira subida da temperatura interna."
+    ],
+    [
+      "Ajustar a consistência do molho",
+      "Verificar se o molho cobre ligeiramente as costas de uma colher e escorre com facilidade. Se estiver demasiado espesso, acrescentar leite quente, uma colher de sopa de cada vez. Se estiver demasiado líquido, corrigir preferencialmente a consistência antes de adicionar o rábano, deixando apurar em lume brando.",
+      "O molho engrossa ligeiramente ao arrefecer. Depois de incorporar o rábano, evitar fervura vigorosa para preservar o aroma."
+    ],
+    [
+      "Empratar e servir",
+      "Colocar um bife em cada prato, acompanhado pelos gomos de batata-doce e pelo feijão-verde. Distribuir aproximadamente 2 colheres de sopa de molho sobre cada bife, deixando parte da crosta visível. Servir o restante molho à parte.",
+      "Utilizar o molho com moderação para preservar o contraste entre a crosta da carne, a doçura da batata-doce e a frescura do feijão-verde."
+    ]
+  ],
+  "detalhes": [
+    {
+      "usa": [1, 3, 4, 5, 6],
+      "ponto": "Gomos de batata-doce dourados nas extremidades, macios no interior e com alguma estrutura.",
+      "porque": "O calor seco favorece a evaporação superficial e as reações de Maillard. Os açúcares naturais da batata-doce contribuem para o desenvolvimento de cor e sabor.",
+      "corrigir": "Se estiverem demasiado firmes, prolongar a cozedura por intervalos de 3–5 minutos. Se escurecerem demasiado depressa, reduzir ligeiramente a temperatura do forno."
+    },
+    {
+      "usa": [0, 5, 6],
+      "ponto": "Bifes com superfície seca, espessura uniforme e tempero distribuído.",
+      "porque": "A redução da humidade superficial permite que a energia da frigideira seja utilizada no dourado em vez de apenas evaporar água.",
+      "corrigir": "Se a superfície estiver húmida, secar novamente com papel de cozinha. Se os bifes tiverem espessuras muito diferentes, ajustar os tempos individualmente."
+    },
+    {
+      "usa": [7, 8],
+      "ponto": "Mistura homogénea, clara e ligeiramente espumosa, sem cheiro intenso a farinha crua.",
+      "porque": "A gordura envolve as partículas de farinha e a cozedura inicial reduz o sabor cru, preparando o amido para engrossar o leite.",
+      "corrigir": "Se começar a ganhar cor, reduzir imediatamente o lume. Se queimar ou desenvolver cheiro amargo, descartar e recomeçar."
+    },
+    {
+      "usa": [7, 8, 9],
+      "ponto": "Béchamel liso, sem grumos e ligeiramente espesso, mas ainda fluido.",
+      "porque": "O aquecimento provoca a gelatinização do amido da farinha, aumentando a viscosidade. A adição gradual do leite favorece uma dispersão homogénea.",
+      "corrigir": "Se surgirem grumos, mexer vigorosamente com a vara de arames ou passar por um passador fino. Se engrossar demasiado, adicionar leite quente em pequenas quantidades."
+    },
+    {
+      "usa": [9, 10, 11, 5, 6],
+      "ponto": "Molho cremoso, homogéneo, com picante percetível mas equilibrado e acidez discreta.",
+      "porque": "O rábano contém compostos voláteis responsáveis pela sensação picante. A gordura e as proteínas do leite suavizam a intensidade, enquanto o vinagre acrescenta acidez.",
+      "corrigir": "Se estiver demasiado picante, adicionar um pouco de béchamel ou leite. Se estiver suave, acrescentar mais rábano gradualmente. Se estiver ácido, diluir com um pouco de molho base."
+    },
+    {
+      "usa": [2, 3, 5],
+      "ponto": "Feijão-verde tenro, ainda ligeiramente firme, de cor verde viva e sem excesso de água.",
+      "porque": "Uma cozedura moderada amolece as paredes celulares sem provocar perda excessiva de textura e cor.",
+      "corrigir": "Se estiver duro, prolongar a cozedura em intervalos de 30 segundos. Se estiver demasiado mole, escorrer imediatamente e evitar mantê-lo em água quente."
+    },
+    {
+      "usa": [0, 3, 5, 6],
+      "ponto": "Bifes com crosta dourada uniforme e interior ainda suculento.",
+      "porque": "O contacto com a superfície quente favorece as reações de Maillard. O controlo do tempo e da temperatura limita a contração excessiva das proteínas e a perda de água.",
+      "corrigir": "Se o exterior escurecer antes de o interior atingir o ponto pretendido, reduzir o lume. Se a crosta não se formar, verificar se a frigideira está suficientemente quente e se a superfície da carne está seca."
+    },
+    {
+      "usa": [0],
+      "ponto": "Para ponto médio, temperatura interna aproximada de 58–60 °C antes do repouso, com interior rosado.",
+      "porque": "A temperatura interna é uma referência mais consistente do que o tempo. Durante o repouso, o calor residual pode continuar a deslocar-se para o centro da carne.",
+      "corrigir": "Se estiver abaixo do ponto desejado, voltar à frigideira por intervalos curtos. Se ultrapassar a temperatura pretendida, evitar aquecer novamente e servir com o molho para compensar alguma perda de suculência."
+    },
+    {
+      "usa": [9, 10],
+      "ponto": "Molho que cobre levemente as costas de uma colher e escorre numa camada contínua.",
+      "porque": "A viscosidade resulta da gelatinização do amido e tende a aumentar ligeiramente durante o arrefecimento.",
+      "corrigir": "Se estiver espesso, acrescentar leite quente em incrementos de aproximadamente 15 ml. Se estiver líquido, reduzir suavemente antes de adicionar o rábano."
+    },
+    {
+      "usa": [0, 1, 2, 10],
+      "ponto": "Carne suculenta com crosta visível, batata-doce macia, feijão-verde firme e molho distribuído moderadamente.",
+      "porque": "A combinação de picante, doçura e frescura vegetal equilibra a riqueza da carne e do molho, enquanto as diferentes texturas tornam o prato mais interessante.",
+      "corrigir": "Se o molho estiver demasiado espesso no momento de servir, adicionar um pouco de leite quente. Se a carne arrefecer, aquecer suavemente sem prolongar excessivamente a cozedura."
+    }
+  ],
+  "complemento": {
+    "nome": "Alternativas à carne e ao rábano-picante",
+    "nota": "A vazia pode ser substituída por alcatra ou lombinho de porco. O creme de rábano pode ser substituído por rábano ralado de conserva, bem escorrido, ou por uma pequena quantidade de pasta de wasabi. O ponto de cozedura deve ser adaptado ao tipo de carne.",
+    "indices": [0, 10],
+    "passos": [
+      "Se utilizar alcatra, manter a técnica de confeção e ajustar o tempo à espessura do bife.",
+      "Se utilizar lombinho de porco, cozinhar até atingir pelo menos 63 °C no centro e deixar repousar durante 3 minutos.",
+      "Se substituir o creme de rábano por rábano ralado de conserva, escorrer bem antes de incorporar no molho.",
+      "Se utilizar pasta de wasabi, começar com apenas 1/4 de colher de chá e aumentar gradualmente até um máximo indicativo de 1/2 colher de chá, provando sempre."
+    ],
+    "dica": "O wasabi pode ser consideravelmente mais intenso do que o creme de rábano. Adicionar sempre fora do lume e em pequenas quantidades."
+  }
+}

@@ -1,0 +1,277 @@
+
+{
+  "versao": 1,
+  "id": "lombos-pescada-aurora",
+  "slug": "lombos-pescada-aurora",
+  "ordem": 13,
+  "nome": "Lombos de pescada com molho Aurora, batata esmagada e espinafres",
+  "descricao": "Lombos de pescada delicados acompanhados por molho Aurora, que combina a suavidade do béchamel com a acidez discreta do tomate. As batatas esmagadas e os espinafres salteados completam um prato equilibrado e leve.",
+  "imagem": null,
+  "categorias": [
+    "Pratos principais",
+    "Peixe"
+  ],
+  "etiquetas": [
+    "Molho Aurora",
+    "Pescada",
+    "Béchamel",
+    "Forno",
+    "Peixe branco"
+  ],
+  "porcoes": 2,
+  "minutos": 40,
+  "preparacao": 10,
+  "cozedura": 30,
+  "equipamento": [
+    "Forno",
+    "Travessa de forno",
+    "Panela",
+    "Tacho pequeno",
+    "Frigideira",
+    "Vara de arames",
+    "Garfo",
+    "Faca de cozinha",
+    "Tábua de corte",
+    "Termómetro de cozinha"
+  ],
+  "ingredientes": [
+    {
+      "nome": "Lombos de pescada",
+      "quantidade": 325,
+      "unidade": "g",
+      "componente": "Peixe",
+      "notas": "2 lombos, aproximadamente 300–350 g no total, completamente descongelados se forem congelados",
+      "opcional": false
+    },
+    {
+      "nome": "Batatas pequenas",
+      "quantidade": 400,
+      "unidade": "g",
+      "componente": "Batata esmagada",
+      "notas": "De tamanho semelhante, para uma cozedura uniforme",
+      "opcional": false
+    },
+    {
+      "nome": "Espinafres frescos",
+      "quantidade": 200,
+      "unidade": "g",
+      "componente": "Espinafres salteados",
+      "notas": "Lavados e bem escorridos",
+      "opcional": false
+    },
+    {
+      "nome": "Alho",
+      "quantidade": 1,
+      "unidade": "dente",
+      "componente": "Espinafres salteados",
+      "notas": "Picado finamente",
+      "opcional": false
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": 15,
+      "unidade": "ml",
+      "componente": null,
+      "notas": "Reservar um pouco para untar a travessa e dividir o restante entre as batatas e os espinafres",
+      "opcional": false
+    },
+    {
+      "nome": "Limão",
+      "quantidade": 0.5,
+      "unidade": "unidade",
+      "componente": null,
+      "notas": "Utilizar a raspa ou algumas gotas de sumo no peixe e nas batatas",
+      "opcional": false
+    },
+    {
+      "nome": "Sal",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": null,
+      "notas": "Para temperar peixe, batatas, espinafres e molho",
+      "opcional": false
+    },
+    {
+      "nome": "Pimenta-preta",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": null,
+      "notas": "Preferencialmente moída na altura",
+      "opcional": false
+    },
+    {
+      "nome": "Manteiga",
+      "quantidade": 12,
+      "unidade": "g",
+      "componente": "Molho Aurora",
+      "notas": "Para preparar o roux",
+      "opcional": false
+    },
+    {
+      "nome": "Farinha de trigo",
+      "quantidade": 12,
+      "unidade": "g",
+      "componente": "Molho Aurora",
+      "notas": "Farinha sem fermento",
+      "opcional": false
+    },
+    {
+      "nome": "Leite meio-gordo",
+      "quantidade": 200,
+      "unidade": "ml",
+      "componente": "Molho Aurora",
+      "notas": "Aquecer antes de incorporar; reservar um pouco mais para ajustar a consistência",
+      "opcional": false
+    },
+    {
+      "nome": "Passata de tomate",
+      "quantidade": 50,
+      "unidade": "g",
+      "componente": "Molho Aurora",
+      "notas": "Tomate triturado e coado, sem pedaços",
+      "opcional": false
+    },
+    {
+      "nome": "Noz-moscada",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": "Molho Aurora",
+      "notas": "Uma pitada, preferencialmente ralada na altura",
+      "opcional": false
+    }
+  ],
+  "antes": [
+    "Se utilizar pescada congelada, descongelar completamente no frigorífico e secar cuidadosamente antes de cozinhar.",
+    "Lavar as batatas e escolher unidades de tamanho semelhante. Lavar e escorrer bem os espinafres.",
+    "Picar o alho e preparar a raspa ou o sumo de limão.",
+    "Medir os ingredientes do molho Aurora e aquecer ligeiramente o leite.",
+    "Aquecer o forno a 190 °C. Começar pelas batatas e preparar o peixe, o molho e os espinafres enquanto estas cozinham.",
+    "Organizar os tempos para que a pescada seja servida logo após sair do forno, evitando que seque."
+  ],
+  "passos": [
+    [
+      "Cozer as batatas",
+      "Aquecer o forno a 190 °C. Colocar as batatas inteiras numa panela com água temperada com sal. Cozer durante aproximadamente 15–18 minutos, conforme o tamanho, até os dentes de um garfo entrarem facilmente.",
+      "Escolher batatas de tamanho semelhante e evitar uma fervura demasiado vigorosa, que pode provocar a abertura da pele antes de o interior estar cozido."
+    ],
+    [
+      "Preparar e assar a pescada",
+      "Secar bem os lombos de pescada com papel de cozinha. Temperar com sal, pimenta e um pouco de raspa ou algumas gotas de sumo de limão. Colocar numa travessa ligeiramente untada com azeite e levar ao forno a 190 °C durante aproximadamente 10–15 minutos, conforme a espessura.",
+      "Não colocar demasiado limão antes da cozedura. Verificar o peixe a partir dos 10 minutos e utilizar um termómetro para evitar que seque."
+    ],
+    [
+      "Preparar o roux",
+      "Derreter a manteiga num tacho pequeno em lume brando. Adicionar a farinha e mexer continuamente durante 1–2 minutos, sem deixar ganhar cor.",
+      "O roux deve manter uma cor clara. A cozedura inicial elimina parte do sabor a farinha crua sem desenvolver sabores tostados."
+    ],
+    [
+      "Preparar o béchamel",
+      "Adicionar gradualmente o leite aquecido ao roux, mexendo continuamente com uma vara de arames. Cozinhar em lume brando durante 3–4 minutos, até obter uma mistura lisa e ligeiramente espessa.",
+      "Não deixar o béchamel demasiado denso nesta fase, porque a passata de tomate também contribui para a consistência final."
+    ],
+    [
+      "Transformar o béchamel em Aurora",
+      "Adicionar a passata de tomate ao béchamel e misturar até obter uma cor rosada uniforme. Cozinhar mais 2 minutos em lume brando. Temperar com pimenta, uma pitada de noz-moscada e apenas o sal necessário.",
+      "A passata deve incorporar-se completamente, sem deixar zonas de tomate concentrado. Evitar fervura vigorosa para preservar a textura suave."
+    ],
+    [
+      "Esmagar e temperar as batatas",
+      "Escorrer bem as batatas cozidas e colocá-las numa travessa ou prato. Pressionar ligeiramente cada batata com um garfo, apenas até abrir. Temperar com parte do azeite, pimenta e algumas gotas de limão.",
+      "Esmagar apenas o suficiente para abrir a batata e permitir que o azeite e os temperos penetrem. Evitar transformar em puré."
+    ],
+    [
+      "Saltear os espinafres",
+      "Aquecer o restante azeite numa frigideira em lume médio. Adicionar o alho picado e cozinhar durante alguns segundos, sem deixar alourar. Juntar os espinafres e saltear durante 2–3 minutos, mexendo, até murcharem. Temperar com sal.",
+      "O alho deve perfumar o azeite sem queimar. Os espinafres precisam apenas de uma cozedura curta para conservar a cor e evitar libertarem demasiada água."
+    ],
+    [
+      "Verificar o ponto da pescada",
+      "Retirar a pescada do forno quando o centro estiver opaco e a carne começar a separar-se facilmente em lascas. Confirmar, preferencialmente com termómetro, que a zona mais espessa atingiu 63 °C.",
+      "Introduzir o termómetro lateralmente na parte mais espessa. Evitar prolongar a cozedura depois de atingir a temperatura pretendida."
+    ],
+    [
+      "Ajustar a consistência do Aurora",
+      "Verificar se o molho cobre as costas de uma colher e escorre numa camada contínua. Se estiver demasiado espesso, acrescentar leite quente, uma colher de sopa de cada vez. Se estiver líquido, cozinhar mais 1–2 minutos em lume brando, mexendo.",
+      "O molho deve ser fluido e não esconder a textura delicada da pescada. Ajustar a consistência imediatamente antes de servir."
+    ],
+    [
+      "Empratar e servir",
+      "Colocar os lombos de pescada nos pratos e distribuir aproximadamente 2–3 colheres de sopa de molho Aurora sobre cada porção, deixando parte da superfície do peixe visível. Acompanhar com as batatas esmagadas e os espinafres. Servir o restante molho à parte.",
+      "Distribuir o molho moderadamente para preservar o contraste entre o peixe delicado, as batatas e os espinafres."
+    ]
+  ],
+  "detalhes": [
+    {
+      "usa": [1, 6],
+      "ponto": "Batatas macias até ao centro, com a pele intacta ou ligeiramente aberta e sem se desfazerem na água.",
+      "porque": "A cozedura em água permite a gelatinização do amido e o amolecimento das estruturas celulares. Uma fervura moderada reduz o risco de as batatas se desmancharem.",
+      "corrigir": "Se ainda oferecerem resistência ao garfo, prolongar a cozedura em intervalos de 2 minutos. Se começarem a desfazer-se, escorrer imediatamente."
+    },
+    {
+      "usa": [0, 4, 5, 6, 7],
+      "ponto": "Peixe húmido, com superfície ligeiramente opaca e carne que começa a separar-se em lascas.",
+      "porque": "O calor provoca a desnaturação das proteínas musculares. A cozedura excessiva aumenta a contração dessas proteínas e a expulsão de água.",
+      "corrigir": "Se o centro ainda estiver translúcido e abaixo da temperatura de segurança, prolongar a cozedura por intervalos curtos. Se estiver seco, servir com um pouco mais de molho, sem voltar a aquecer excessivamente."
+    },
+    {
+      "usa": [8, 9],
+      "ponto": "Mistura clara, homogénea, ligeiramente espumosa e sem cheiro intenso a farinha crua.",
+      "porque": "A gordura envolve as partículas de farinha e a cozedura inicial reduz o sabor cru, preparando o amido para engrossar o leite.",
+      "corrigir": "Se começar a ganhar cor, reduzir imediatamente o lume. Se queimar ou desenvolver cheiro amargo, descartar e recomeçar."
+    },
+    {
+      "usa": [8, 9, 10],
+      "ponto": "Béchamel liso, sem grumos e ligeiramente espesso, mas ainda fluido.",
+      "porque": "O aquecimento provoca a gelatinização do amido da farinha, aumentando a viscosidade. A adição gradual do leite favorece uma dispersão homogénea.",
+      "corrigir": "Se surgirem grumos, mexer energicamente com a vara de arames ou passar por um passador fino. Se engrossar demasiado, adicionar um pouco de leite quente."
+    },
+    {
+      "usa": [10, 11, 12, 6, 7],
+      "ponto": "Molho rosado, homogéneo, suave e com acidez discreta, sem sabor a farinha crua ou tomate excessivamente concentrado.",
+      "porque": "O béchamel suaviza a acidez do tomate através da gordura e das proteínas do leite. A passata acrescenta sabor, cor e sólidos que contribuem para a viscosidade.",
+      "corrigir": "Se estiver demasiado ácido, adicionar um pouco de leite. Se o tomate dominar, acrescentar uma pequena quantidade de béchamel. Se estiver demasiado espesso, diluir com leite quente."
+    },
+    {
+      "usa": [1, 4, 5, 7],
+      "ponto": "Batatas abertas, mas ainda inteiras, com interior macio e tempero distribuído pelas fissuras.",
+      "porque": "O esmagamento ligeiro aumenta a superfície disponível para absorver o azeite e os temperos, preservando a textura natural da batata.",
+      "corrigir": "Se as batatas estiverem demasiado firmes para esmagar, prolongar a cozedura. Se se desfizerem, servir como batata grosseiramente esmagada, evitando mexer demasiado."
+    },
+    {
+      "usa": [2, 3, 4, 6],
+      "ponto": "Espinafres murchos, de cor verde viva, sem excesso de líquido e com aroma suave a alho.",
+      "porque": "O calor reduz rapidamente o volume dos espinafres ao alterar a estrutura celular e libertar parte da água. Uma cozedura curta limita a perda de cor e textura.",
+      "corrigir": "Se libertarem demasiada água, aumentar ligeiramente o lume durante alguns segundos. Se o alho começar a escurecer, reduzir imediatamente o calor."
+    },
+    {
+      "usa": [0],
+      "ponto": "Pescada opaca na parte mais espessa, a separar-se facilmente em lascas, com temperatura interna de 63 °C.",
+      "porque": "A temperatura interna permite verificar a cozedura de forma mais fiável do que apenas o tempo ou a aparência, especialmente quando os lombos têm espessuras diferentes.",
+      "corrigir": "Se ainda não atingiu 63 °C, voltar ao forno durante 1–2 minutos e medir novamente. Se estiver demasiado cozinhada, evitar aquecer mais e compensar a secura com o molho."
+    },
+    {
+      "usa": [10, 11],
+      "ponto": "Molho que cobre levemente as costas de uma colher e escorre numa camada contínua, sem ficar pastoso.",
+      "porque": "A viscosidade resulta da gelatinização do amido e dos sólidos da passata. O molho tende a engrossar ligeiramente ao arrefecer.",
+      "corrigir": "Se estiver espesso, adicionar leite quente em incrementos de 15 ml. Se estiver líquido, prolongar a cozedura em lume brando durante 1–2 minutos, mexendo continuamente."
+    },
+    {
+      "usa": [0, 1, 2, 11],
+      "ponto": "Peixe suculento, batatas macias, espinafres tenros e molho Aurora distribuído moderadamente.",
+      "porque": "A combinação de texturas e a acidez discreta do molho equilibram a delicadeza do peixe e o sabor vegetal dos acompanhamentos.",
+      "corrigir": "Se o molho engrossar antes de servir, adicionar um pouco de leite quente. Se os espinafres libertarem água no prato, escorrer antes de empratar."
+    }
+  ],
+  "complemento": {
+    "nome": "Alternativas à pescada e à passata",
+    "nota": "A pescada pode ser substituída por lombos de bacalhau fresco, corvina ou outro peixe branco de textura semelhante. Se não houver passata, pode utilizar-se polpa de tomate triturada e coada para manter o molho liso.",
+    "indices": [0, 11],
+    "passos": [
+      "Se utilizar outro peixe branco, ajustar o tempo de forno à espessura dos lombos e verificar a temperatura interna.",
+      "Se substituir a passata por polpa de tomate, triturar até obter uma textura uniforme.",
+      "Passar a polpa triturada por um coador fino para retirar pedaços e sementes.",
+      "Incorporar no béchamel e ajustar a consistência e os temperos."
+    ],
+    "dica": "Evitar tomate aos pedaços no molho Aurora. Uma textura lisa permite que o molho envolva delicadamente o peixe sem dominar o prato."
+  }
+}
