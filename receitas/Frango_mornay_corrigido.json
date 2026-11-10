@@ -1,0 +1,200 @@
+{
+  "id": "peito-de-frango-com-mornay-brocolos-e-batata-assada",
+  "nome": "Peito de frango com Mornay, brócolos e batata assada",
+  "categoria": "Carne",
+  "descricao": "Peito de frango suculento acompanhado por batatas assadas crocantes, brócolos tenros e um molho Mornay de Gruyère. O molho é servido com moderação para equilibrar a cremosidade do queijo com a frescura dos legumes.",
+  "minutos": 45,
+  "porcoes": 2,
+  "preparacao": 10,
+  "cozedura": 35,
+  "equipamento": [
+    "Forno",
+    "Tabuleiro de forno",
+    "Frigideira antiaderente",
+    "Panela pequena",
+    "Vara de arames",
+    "Panela com cesto de vapor ou panela para cozer",
+    "Faca e tábua de corte",
+    "Termómetro de cozinha de leitura instantânea (recomendado)"
+  ],
+  "ingredientes": [
+    [
+      "Peito de frango",
+      325,
+      "g"
+    ],
+    [
+      "Batatas pequenas",
+      400,
+      "g"
+    ],
+    [
+      "Brócolos",
+      250,
+      "g"
+    ],
+    [
+      "Azeite",
+      15,
+      "ml"
+    ],
+    [
+      "Alho em pó",
+      1,
+      "g"
+    ],
+    [
+      "Manteiga",
+      15,
+      "g"
+    ],
+    [
+      "Farinha de trigo",
+      15,
+      "g"
+    ],
+    [
+      "Leite meio-gordo",
+      250,
+      "ml"
+    ],
+    [
+      "Queijo Gruyère ralado",
+      40,
+      "g"
+    ],
+    [
+      "Mostarda Dijon (opcional)",
+      5,
+      "g"
+    ],
+    [
+      "Sal",
+      null,
+      "q.b."
+    ],
+    [
+      "Pimenta-preta",
+      null,
+      "q.b."
+    ],
+    [
+      "Noz-moscada",
+      null,
+      "q.b."
+    ]
+  ],
+  "antes": [
+    "Pré-aquecer o forno a 210 °C, ou 200 °C com ventilação.",
+    "Lavar as batatas e cortar ao meio. Secar bem para facilitar a formação de crosta.",
+    "Separar os brócolos em floretes de tamanho semelhante.",
+    "Ralar o Gruyère e aquecer o leite sem deixar ferver.",
+    "Uniformizar a espessura dos peitos de frango para cerca de 2 cm na parte mais grossa, se necessário.",
+    "Preparar os ingredientes do molho antes de começar a cozinhar o frango.",
+    "Para terminar tudo aproximadamente ao mesmo tempo, colocar primeiro as batatas no forno, preparar o molho enquanto assam e cozinhar o frango e os brócolos perto do final.",
+    "O tempo de confeção do frango depende da espessura. Usar a temperatura interna, e não apenas o relógio, como referência de segurança."
+  ],
+  "passos": [
+    [
+      "Assar as batatas",
+      "Aquecer o forno a 210 °C, ou 200 °C com ventilação. Cortar as batatas ao meio, secar e envolver com cerca de 10 ml de azeite, alho em pó, sal e pimenta-preta. Distribuir num tabuleiro, com a face cortada para baixo e sem sobrepor. Assar durante 30–35 minutos, verificando e virando se necessário a meio da confeção.",
+      "Deixar espaço entre as batatas para permitir que a humidade evapore. Começar com a face cortada em contacto com o tabuleiro favorece a formação de uma superfície dourada e crocante."
+    ],
+    [
+      "Cozinhar o peito de frango",
+      "Temperar o frango com sal e pimenta-preta. Quando faltarem cerca de 15 minutos para as batatas, aquecer uma frigideira antiaderente em lume médio-alto com os restantes 5 ml de azeite. Dourar o frango durante aproximadamente 2–3 minutos de cada lado. Reduzir para lume médio-baixo e continuar a cozinhar, virando conforme necessário, até atingir 74 °C no centro da zona mais espessa. Retirar e deixar repousar 3–5 minutos antes de cortar.",
+      "A espessura uniforme é mais importante do que o tempo exato. Usar um termómetro de cozinha para evitar prolongar desnecessariamente a confeção. Se o exterior dourar demasiado depressa, reduzir o lume e tapar parcialmente a frigideira."
+    ],
+    [
+      "Cozer os brócolos",
+      "Separar os brócolos em floretes semelhantes e cozer a vapor durante aproximadamente 4–5 minutos ou em água a ferver temperada com sal. Escorrer imediatamente e reservar num local quente.",
+      "Retirar assim que os floretes adquirirem uma cor verde viva e oferecerem ligeira resistência ao garfo. Evitar deixá-los na água quente depois da cozedura, pois continuam a amolecer."
+    ],
+    [
+      "Preparar a base do molho Mornay",
+      "Derreter a manteiga numa panela pequena em lume brando. Juntar a farinha e mexer continuamente durante cerca de 2 minutos, sem deixar ganhar cor. Incorporar gradualmente o leite quente, começando por uma pequena quantidade e mexendo vigorosamente com uma vara de arames. Adicionar o restante leite aos poucos e cozinhar durante 3–5 minutos, até formar um béchamel liso e ligeiramente fluido.",
+      "O molho deve cobrir levemente as costas de uma colher, mas continuar a escorrer. Para evitar grumos, incorporar completamente cada pequena adição de leite antes de juntar a seguinte. Se engrossar demasiado, acrescentar leite quente aos poucos."
+    ],
+    [
+      "Finalizar o molho com Gruyère",
+      "Retirar o béchamel do lume e juntar o Gruyère ralado em pequenas porções, mexendo até incorporar completamente. Acrescentar a mostarda Dijon, se utilizada, e uma pitada de noz-moscada. Provar antes de corrigir o sal. Manter morno sem deixar ferver.",
+      "Adicionar o queijo fora do lume e evitar temperaturas excessivas, que podem provocar a separação da gordura e uma textura granulosa. Se o molho engrossar enquanto espera, juntar um pouco de leite quente e mexer suavemente."
+    ],
+    [
+      "Empratar e servir",
+      "Cortar o peito de frango em fatias oblíquas, depois do repouso. Distribuir as batatas assadas e os brócolos pelos pratos. Colocar 2–3 colheres de sopa de molho Mornay por pessoa, sobretudo sobre o frango e uma pequena parte dos brócolos. Servir o restante molho à parte.",
+      "Evitar cobrir as batatas com molho para preservar a crosta. Servir o frango imediatamente depois de fatiar, com o molho quente e fluido."
+    ]
+  ],
+  "detalhes": [
+    {
+      "usa": [
+        1,
+        3,
+        4,
+        10,
+        11
+      ],
+      "ponto": "As batatas estão douradas no exterior e macias no interior. Uma faca deve atravessar facilmente a parte mais espessa.",
+      "porque": "A superfície seca e o contacto direto com o tabuleiro favorecem a reação de Maillard, responsável pelo desenvolvimento de aromas tostados e pela formação de crosta.",
+      "corrigir": "Se estiverem pálidas mas cozidas, aumentar ligeiramente a temperatura nos últimos minutos. Se dourarem demasiado cedo, reduzir a temperatura e continuar até o interior estar macio."
+    },
+    {
+      "usa": [
+        0,
+        3,
+        10,
+        11
+      ],
+      "ponto": "O frango apresenta uma superfície dourada e atinge 74 °C na parte mais espessa. Depois do repouso, as fatias devem conservar humidade e uma textura macia.",
+      "porque": "O calor intenso inicial favorece o desenvolvimento de sabor na superfície. Terminar a confeção com calor moderado reduz o risco de secar as camadas exteriores antes de o centro estar completamente cozinhado.",
+      "corrigir": "Se o exterior escurecer antes de o interior estar pronto, reduzir o lume e tapar parcialmente a frigideira. Se o frango ficar seco, cortar em fatias finas e acompanhar com um pouco mais de molho. A suculência perdida não pode ser totalmente recuperada."
+    },
+    {
+      "usa": [
+        2,
+        10
+      ],
+      "ponto": "Os brócolos apresentam uma cor verde viva, são tenros e mantêm uma ligeira resistência ao garfo.",
+      "porque": "A cozedura curta preserva melhor a estrutura dos vegetais, a textura e a cor, evitando o desenvolvimento excessivo de aromas sulfurados.",
+      "corrigir": "Se estiverem duros, cozinhar durante mais 1 minuto e voltar a verificar. Se estiverem demasiado moles, escorrer imediatamente e evitar mexer para não os desfazer."
+    },
+    {
+      "usa": [
+        5,
+        6,
+        7
+      ],
+      "ponto": "O béchamel apresenta uma textura homogénea, sem grumos, cobre ligeiramente as costas de uma colher e escorre com facilidade.",
+      "porque": "A cozedura inicial da farinha elimina o sabor cru. O aquecimento do amido na presença de leite provoca gelatinização, dando consistência ao molho.",
+      "corrigir": "Se surgirem grumos, mexer vigorosamente ou utilizar brevemente uma varinha mágica. Se estiver demasiado espesso, acrescentar leite quente. Se estiver muito líquido, cozinhar mais 1–2 minutos em lume brando, mexendo."
+    },
+    {
+      "usa": [
+        8,
+        9,
+        10,
+        12
+      ],
+      "ponto": "O queijo está completamente incorporado e o molho apresenta uma textura lisa, brilhante e suficientemente fluida para escorrer da colher.",
+      "porque": "O queijo acrescenta gordura, proteínas e sabor ao béchamel. Incorporá-lo fora do lume reduz o risco de contração excessiva das proteínas e separação da gordura.",
+      "corrigir": "Se o molho engrossar, juntar um pouco de leite quente e mexer. Se começar a separar, retirar imediatamente do calor e tentar incorporar uma pequena quantidade de leite. Uma separação acentuada pode não ser totalmente reversível."
+    },
+    {
+      "usa": [
+        0,
+        1,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12
+      ],
+      "ponto": "O frango está quente e suculento, as batatas mantêm uma superfície crocante, os brócolos conservam a textura e o molho apresenta consistência fluida.",
+      "porque": "A distribuição moderada do molho permite equilibrar a riqueza do queijo com a textura dos legumes e a intensidade do frango, evitando que todos os componentes tenham a mesma sensação na boca.",
+      "corrigir": "Se o molho arrefecer e engrossar, aquecer suavemente com um pouco de leite. Se as batatas perderem a crosta antes de servir, colocá-las brevemente no forno quente, sem molho."
+    }
+  ]
+}
