@@ -1,0 +1,258 @@
+
+{
+  "versao": 1,
+  "id": "frango-mostarda-estragao",
+  "slug": "frango-mostarda-estragao",
+  "ordem": 12,
+  "nome": "Frango com molho de mostarda e estragão, arroz de ervilhas e curgete",
+  "descricao": "Sobrecoxas de frango suculentas acompanhadas por um molho cremoso de mostarda Dijon e estragão. O arroz de ervilhas e a curgete salteada equilibram a intensidade do molho.",
+  "imagem": null,
+  "categorias": [
+    "Pratos principais",
+    "Frango"
+  ],
+  "etiquetas": [
+    "Molho de mostarda",
+    "Estragão",
+    "Arroz",
+    "Refeição familiar"
+  ],
+  "porcoes": 2,
+  "minutos": 35,
+  "preparacao": 10,
+  "cozedura": 25,
+  "equipamento": [
+    "Tacho com tampa",
+    "Frigideira larga",
+    "Tacho pequeno",
+    "Vara de arames",
+    "Faca de cozinha",
+    "Tábua de corte",
+    "Termómetro de cozinha"
+  ],
+  "ingredientes": [
+    {
+      "nome": "Sobrecoxas de frango desossadas e sem pele",
+      "quantidade": 375,
+      "unidade": "g",
+      "componente": "Frango",
+      "notas": "350–400 g, abertas e com espessura uniforme",
+      "opcional": false
+    },
+    {
+      "nome": "Arroz agulha",
+      "quantidade": 120,
+      "unidade": "g",
+      "componente": "Arroz de ervilhas",
+      "notas": "Ajustar a quantidade de água às instruções da embalagem",
+      "opcional": false
+    },
+    {
+      "nome": "Ervilhas congeladas",
+      "quantidade": 100,
+      "unidade": "g",
+      "componente": "Arroz de ervilhas",
+      "notas": "Adicionar nos últimos 5 minutos de cozedura",
+      "opcional": false
+    },
+    {
+      "nome": "Curgete",
+      "quantidade": 250,
+      "unidade": "g",
+      "componente": "Curgete salteada",
+      "notas": "Uma curgete média, cortada em meias-luas de aproximadamente 1 cm",
+      "opcional": false
+    },
+    {
+      "nome": "Azeite",
+      "quantidade": 15,
+      "unidade": "ml",
+      "componente": null,
+      "notas": "Metade para a curgete e metade para o frango",
+      "opcional": false
+    },
+    {
+      "nome": "Sal",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": null,
+      "notas": "Para temperar o arroz, o frango, a curgete e o molho",
+      "opcional": false
+    },
+    {
+      "nome": "Pimenta-preta",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": null,
+      "notas": "Preferencialmente moída na altura",
+      "opcional": false
+    },
+    {
+      "nome": "Manteiga",
+      "quantidade": 10,
+      "unidade": "g",
+      "componente": "Molho de mostarda e estragão",
+      "notas": "Para preparar o roux",
+      "opcional": false
+    },
+    {
+      "nome": "Farinha de trigo",
+      "quantidade": 10,
+      "unidade": "g",
+      "componente": "Molho de mostarda e estragão",
+      "notas": "Farinha sem fermento",
+      "opcional": false
+    },
+    {
+      "nome": "Leite meio-gordo",
+      "quantidade": 200,
+      "unidade": "ml",
+      "componente": "Molho de mostarda e estragão",
+      "notas": "Aquecer antes de incorporar; reservar um pouco mais para ajustar a consistência",
+      "opcional": false
+    },
+    {
+      "nome": "Mostarda Dijon",
+      "quantidade": 10,
+      "unidade": "ml",
+      "componente": "Molho de mostarda e estragão",
+      "notas": "Aproximadamente 2 colheres de chá",
+      "opcional": false
+    },
+    {
+      "nome": "Estragão seco",
+      "quantidade": 0.25,
+      "unidade": "colher de chá",
+      "componente": "Molho de mostarda e estragão",
+      "notas": "Usar com moderação para não dominar o molho",
+      "opcional": false
+    },
+    {
+      "nome": "Sumo de limão",
+      "quantidade": null,
+      "unidade": "q.b.",
+      "componente": "Molho de mostarda e estragão",
+      "notas": "Algumas gotas, apenas se necessário para equilibrar a acidez",
+      "opcional": true
+    },
+    {
+      "nome": "Água",
+      "quantidade": 240,
+      "unidade": "ml",
+      "componente": "Arroz de ervilhas",
+      "notas": "Quantidade indicativa; ajustar às instruções da embalagem",
+      "opcional": false
+    }
+  ],
+  "antes": [
+    "Abrir as sobrecoxas desossadas para obter uma espessura relativamente uniforme. Secar a superfície e temperar com sal e pimenta.",
+    "Lavar a curgete e cortar em meias-luas de aproximadamente 1 cm.",
+    "Medir o arroz e as ervilhas. Não é necessário descongelar previamente as ervilhas.",
+    "Medir os ingredientes do molho e aquecer ligeiramente o leite.",
+    "Organizar a confeção para que o arroz comece primeiro. Preparar a curgete e o frango enquanto o arroz cozinha, fazendo o molho em paralelo."
+  ],
+  "passos": [
+    [
+      "Cozinhar o arroz de ervilhas",
+      "Colocar o arroz num tacho com aproximadamente 240 ml de água a ferver e uma pitada de sal, ajustando às instruções da embalagem. Tapar e cozinhar em lume brando. Juntar as ervilhas congeladas nos últimos 5 minutos. Quando o arroz estiver cozido, retirar do lume e deixar repousar tapado.",
+      "Evitar mexer frequentemente no arroz. O repouso final ajuda a distribuir a humidade e a manter os grãos soltos."
+    ],
+    [
+      "Preparar o frango",
+      "Abrir as sobrecoxas desossadas e sem pele para ficarem espalmadas e com espessura uniforme. Secar com papel de cozinha e temperar com sal e pimenta-preta.",
+      "A superfície seca facilita o dourado e a espessura uniforme reduz o risco de zonas demasiado cozinhadas."
+    ],
+    [
+      "Saltear a curgete",
+      "Cortar a curgete em meias-luas de aproximadamente 1 cm. Aquecer metade do azeite numa frigideira larga e cozinhar durante 5–7 minutos, virando ocasionalmente. Temperar com sal e pimenta e reservar.",
+      "Utilizar uma frigideira suficientemente larga para evitar acumulação de água. A curgete deve dourar ligeiramente sem perder completamente a firmeza."
+    ],
+    [
+      "Cozinhar as sobrecoxas",
+      "Na mesma frigideira, adicionar o restante azeite. Colocar as sobrecoxas e alourar durante aproximadamente 3–4 minutos de cada lado em lume médio-alto. Reduzir o lume e continuar a cozinhar até atingirem 74 °C na parte mais espessa, medindo lateralmente com um termómetro. Retirar e deixar repousar cerca de 3 minutos.",
+      "Não confiar apenas no tempo de cozedura. As sobrecoxas são mais tolerantes ao calor do que o peito, mas a temperatura interna continua a ser a referência."
+    ],
+    [
+      "Preparar a base do molho",
+      "Num tacho pequeno, derreter a manteiga em lume brando. Adicionar a farinha e mexer durante 1–2 minutos sem deixar ganhar cor. Acrescentar gradualmente o leite morno, mexendo continuamente com uma vara de arames. Cozinhar suavemente durante 3–5 minutos até engrossar ligeiramente.",
+      "Adicionar o leite em pequenas quantidades no início e mexer até obter uma mistura lisa antes de acrescentar mais."
+    ],
+    [
+      "Incorporar a mostarda e o estragão",
+      "Reduzir o lume ao mínimo. Adicionar a mostarda Dijon e o estragão seco ao molho, mexendo até incorporar. Provar antes de acrescentar sal. Se necessário, adicionar algumas gotas de sumo de limão para ajustar a acidez.",
+      "Evitar ferver vigorosamente depois de adicionar a mostarda. O estragão deve ser discreto e complementar o sabor, não dominá-lo."
+    ],
+    [
+      "Ajustar a consistência do molho",
+      "Verificar se o molho cobre levemente as costas de uma colher e escorre com facilidade. Se estiver demasiado espesso, acrescentar leite quente, uma colher de sopa de cada vez. Se estiver demasiado líquido, cozinhar mais 1–2 minutos em lume brando, mexendo continuamente.",
+      "O molho engrossa ligeiramente ao arrefecer. Ajustar a consistência perto do momento de servir."
+    ],
+    [
+      "Empratar e servir",
+      "Distribuir o arroz de ervilhas e a curgete pelos pratos. Colocar as sobrecoxas ao lado e servir 2–3 colheres de sopa de molho sobre cada porção de frango. Apresentar o restante molho à parte.",
+      "Manter parte da curgete sem molho para preservar o contraste entre a frescura vegetal e a cremosidade da mostarda."
+    ]
+  ],
+  "detalhes": [
+    {
+      "usa": [1, 2, 5, 13],
+      "ponto": "Arroz cozido, com grãos definidos e sem excesso de água. Ervilhas tenras e de cor verde viva.",
+      "porque": "A absorção gradual de água permite a gelatinização do amido. O repouso redistribui a humidade, enquanto a adição tardia das ervilhas evita uma cozedura excessiva.",
+      "corrigir": "Se o arroz estiver duro e seco, adicionar um pouco de água quente e prolongar a cozedura tapada. Se estiver demasiado húmido, deixar repousar destapado durante alguns minutos."
+    },
+    {
+      "usa": [0, 5, 6],
+      "ponto": "Sobrecoxas com espessura relativamente uniforme, superfície seca e tempero distribuído.",
+      "porque": "Uma superfície seca favorece as reações de Maillard e uma espessura homogénea facilita a distribuição do calor durante a cozedura.",
+      "corrigir": "Se alguma zona for muito espessa, abrir ligeiramente a carne. Se houver humidade superficial, secar novamente com papel de cozinha."
+    },
+    {
+      "usa": [3, 4, 5, 6],
+      "ponto": "Curgete ligeiramente dourada, tenra, mas ainda firme e sem se desfazer.",
+      "porque": "O calor relativamente elevado promove a evaporação superficial e o dourado. A cozedura curta limita a perda de estrutura celular.",
+      "corrigir": "Se libertar demasiada água, aumentar ligeiramente o lume e evitar sobrecarregar a frigideira. Se estiver demasiado firme, prolongar a cozedura por intervalos de 1 minuto."
+    },
+    {
+      "usa": [0, 4, 5, 6],
+      "ponto": "Frango dourado no exterior e com temperatura interna mínima de 74 °C na parte mais espessa.",
+      "porque": "O calor da frigideira desenvolve sabor através das reações de Maillard. A temperatura interna permite confirmar a segurança alimentar e evitar prolongar desnecessariamente a cozedura.",
+      "corrigir": "Se o exterior escurecer antes de o centro atingir 74 °C, reduzir o lume. Se a carne ainda não estiver na temperatura correta, continuar a cozinhar e verificar novamente."
+    },
+    {
+      "usa": [7, 8, 9],
+      "ponto": "Molho liso, homogéneo e ligeiramente espesso, sem grumos nem sabor a farinha crua.",
+      "porque": "O roux permite dispersar a farinha na gordura. O aquecimento do leite provoca a gelatinização do amido, aumentando a viscosidade.",
+      "corrigir": "Se surgirem grumos, mexer vigorosamente com a vara de arames ou passar por um passador fino. Se engrossar demasiado, adicionar pequenas quantidades de leite quente."
+    },
+    {
+      "usa": [10, 11, 12],
+      "ponto": "Molho cremoso, com sabor equilibrado de mostarda e aroma subtil de estragão.",
+      "porque": "A mostarda acrescenta acidez e compostos aromáticos que equilibram a gordura do molho. O estragão fornece notas anisadas intensas, mesmo em pequenas quantidades.",
+      "corrigir": "Se a mostarda estiver demasiado intensa, adicionar um pouco de leite. Se o estragão dominar, diluir com mais molho base. Se faltar frescura, acrescentar algumas gotas de limão."
+    },
+    {
+      "usa": [9],
+      "ponto": "Molho que cobre ligeiramente as costas de uma colher, mas continua a escorrer facilmente.",
+      "porque": "A viscosidade depende da gelatinização do amido e da proporção entre farinha e líquido. O molho tende a engrossar ao arrefecer.",
+      "corrigir": "Se estiver espesso, acrescentar leite quente em incrementos de aproximadamente 15 ml. Se estiver líquido, prolongar a cozedura em lume brando durante 1–2 minutos."
+    },
+    {
+      "usa": [0, 1, 2, 3, 10],
+      "ponto": "Frango suculento, arroz solto, ervilhas tenras, curgete ligeiramente firme e molho distribuído moderadamente.",
+      "porque": "A combinação de texturas e a utilização moderada do molho equilibram a cremosidade, a acidez e a frescura vegetal do prato.",
+      "corrigir": "Se o arroz estiver seco, soltar com um garfo e juntar uma pequena quantidade de água quente. Se o molho tiver engrossado, adicionar leite quente antes de servir."
+    }
+  ],
+  "complemento": {
+    "nome": "Alternativas à mostarda Dijon e ao estragão",
+    "nota": "O estragão seco pode ser substituído por salsa fresca, produzindo um molho com perfil aromático diferente, mas igualmente adequado ao frango. A mostarda Dijon pode ser substituída por mostarda corrente, ajustando gradualmente a quantidade.",
+    "indices": [10, 11],
+    "passos": [
+      "Se não tiver estragão, utilizar aproximadamente 1 colher de chá de salsa fresca picada.",
+      "Adicionar a salsa no final da preparação do molho, preferencialmente fora do lume, para preservar o aroma.",
+      "Se utilizar mostarda corrente em vez de Dijon, começar com 1 colher de chá.",
+      "Provar e acrescentar gradualmente mais mostarda até atingir a intensidade desejada."
+    ],
+    "dica": "A mostarda corrente pode apresentar um equilíbrio diferente entre acidez, doçura e intensidade. Ajustar sempre pelo sabor, sem substituir automaticamente a mesma quantidade."
+  }
+}
