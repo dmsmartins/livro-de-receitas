@@ -36,7 +36,7 @@
       "quantidade": 375,
       "unidade": "g",
       "componente": "Frango",
-      "notas": "350–400 g, abertas e com espessura uniforme",
+      "notas": "Abertas e com espessura uniforme",
       "opcional": false
     },
     {
@@ -60,7 +60,7 @@
       "quantidade": 250,
       "unidade": "g",
       "componente": "Curgete salteada",
-      "notas": "Uma curgete média, cortada em meias-luas de aproximadamente 1 cm",
+      "notas": "Curgete média, cortada em meias-luas de aproximadamente 1 cm",
       "opcional": false
     },
     {
@@ -116,7 +116,7 @@
       "quantidade": 10,
       "unidade": "ml",
       "componente": "Molho de mostarda e estragão",
-      "notas": "Aproximadamente 2 colheres de chá",
+      "notas": "Adicionar ao molho",
       "opcional": false
     },
     {
@@ -154,7 +154,7 @@
   "passos": [
     [
       "Cozinhar o arroz de ervilhas",
-      "Colocar o arroz num tacho com aproximadamente 240 ml de água a ferver e uma pitada de sal, ajustando às instruções da embalagem. Tapar e cozinhar em lume brando. Juntar as ervilhas congeladas nos últimos 5 minutos. Quando o arroz estiver cozido, retirar do lume e deixar repousar tapado.",
+      "Colocar o arroz num tacho com a água a ferver indicada nos ingredientes e uma pitada de sal, ajustando às instruções da embalagem. Tapar e cozinhar em lume brando. Juntar as ervilhas congeladas nos últimos 5 minutos. Quando o arroz estiver cozido, retirar do lume e deixar repousar tapado.",
       "Evitar mexer frequentemente no arroz. O repouso final ajuda a distribuir a humidade e a manter os grãos soltos."
     ],
     [

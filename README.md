@@ -6,9 +6,9 @@ Livro pessoal para estudar uma receita, preparar compras e cozinhar com dicas pr
 
 A página inicial apresenta o catálogo e a lista de compras. Cada receita tem uma página única com ingredientes, porções, dicas expansíveis e acesso direto ao Bring!.
 
-As quantidades dos ingredientes e dos passos acompanham as porções. Desmarca os ingredientes que já tens e inclui a receita na lista de compras para a juntar a outras receitas. Podes copiar a seleção de uma receita ou copiar e guardar a lista consolidada.
+As quantidades na lista de ingredientes e nos resumos junto aos passos acompanham as porções. Tempos e temperaturas não são alterados automaticamente. Desmarca os ingredientes que já tens e inclui a receita na lista de compras para a juntar a outras receitas. Podes copiar a seleção de uma receita ou copiar e guardar a lista consolidada.
 
-O modo de cozinha aumenta o texto e permite marcar os passos concluídos. As porções, seleção e progresso ficam neste navegador. «Recomeçar» limpa o progresso da receita. Manter o ecrã ligado depende do suporte e das permissões do navegador. A página informa se foi possível.
+A pesquisa encontra receitas por nome, ingrediente, categoria ou etiqueta. No robalo, a escolha entre caldo caseiro e pronto ajusta a seleção para compras; o Bring! continua a receber a receita completa. O modo de cozinha apresenta um passo de cada vez, aumenta o texto e permite marcar os passos concluídos. As porções, seleção e progresso ficam neste navegador. «Recomeçar» limpa o progresso da receita. Manter o ecrã ligado depende do suporte e das permissões do navegador. A página informa se foi possível.
 
 ## Bring!
 

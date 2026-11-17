@@ -38,7 +38,7 @@
       "quantidade": 325,
       "unidade": "g",
       "componente": "Frango",
-      "notas": "2 peitos pequenos, aproximadamente 300–350 g no total",
+      "notas": "Peitos pequenos",
       "opcional": false
     },
     {
@@ -62,7 +62,7 @@
       "quantidade": 20,
       "unidade": "ml",
       "componente": null,
-      "notas": "15 ml para as batatas e 5 ml para o frango",
+      "notas": "Três quartos para as batatas e um quarto para o frango",
       "opcional": false
     },
     {
@@ -70,7 +70,7 @@
       "quantidade": 1,
       "unidade": "g",
       "componente": "Batatas",
-      "notas": "Pode substituir-se por 1 dente de alho picado",
+      "notas": "Pode substituir-se por alho picado a gosto",
       "opcional": false
     },
     {
@@ -126,7 +126,7 @@
       "quantidade": 5,
       "unidade": "g",
       "componente": "Molho Mornay",
-      "notas": "Aproximadamente 1 colher de chá",
+      "notas": "Adicionar ao molho",
       "opcional": true
     },
     {
@@ -148,7 +148,7 @@
   "passos": [
     [
       "Assar as batatas",
-      "Aquecer o forno a 210 °C. Cortar as batatas ao meio, envolver com 15 ml de azeite, alho em pó, sal e pimenta. Distribuir num tabuleiro, com a face cortada voltada para baixo. Assar durante 30–35 minutos, virando aproximadamente a meio.",
+      "Aquecer o forno a 210 °C. Cortar as batatas ao meio, envolver com três quartos do azeite, alho em pó, sal e pimenta. Distribuir num tabuleiro, com a face cortada voltada para baixo. Assar durante 30–35 minutos, virando aproximadamente a meio.",
       "Deixar espaço entre as batatas para permitir a evaporação da humidade e favorecer a formação de uma superfície dourada."
     ],
     [
@@ -158,7 +158,7 @@
     ],
     [
       "Cozinhar o frango",
-      "Quando faltarem cerca de 15 minutos para as batatas, aquecer uma frigideira antiaderente em lume médio com 5 ml de azeite. Cozinhar o frango aproximadamente 5–6 minutos de cada lado, ajustando ao tamanho e espessura. Confirmar que a parte mais grossa atinge 74 °C. Retirar e deixar repousar 3–5 minutos.",
+      "Quando faltarem cerca de 15 minutos para as batatas, aquecer uma frigideira antiaderente em lume médio com o restante azeite. Cozinhar o frango aproximadamente 5–6 minutos de cada lado, ajustando ao tamanho e espessura. Confirmar que a parte mais grossa atinge 74 °C. Retirar e deixar repousar 3–5 minutos.",
       "Evitar lume demasiado forte. A temperatura interna, e não apenas o tempo, deve determinar o fim da cozedura."
     ],
     [
