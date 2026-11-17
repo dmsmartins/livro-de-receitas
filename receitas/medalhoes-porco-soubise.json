@@ -39,7 +39,7 @@
       "quantidade": 375,
       "unidade": "g",
       "componente": "Porco",
-      "notas": "350–400 g, cortado em medalhões de aproximadamente 3 cm",
+      "notas": "Cortado em medalhões de aproximadamente 3 cm",
       "opcional": false
     },
     {
@@ -63,7 +63,7 @@
       "quantidade": 20,
       "unidade": "ml",
       "componente": null,
-      "notas": "10 ml para as cenouras, 5 ml para o molho e 5 ml para os medalhões",
+      "notas": "Metade para as cenouras, um quarto para o molho e um quarto para os medalhões",
       "opcional": false
     },
     {
@@ -95,7 +95,7 @@
       "quantidade": 150,
       "unidade": "g",
       "componente": "Molho Soubise",
-      "notas": "Uma cebola média, cortada em meias-luas muito finas",
+      "notas": "Cebola média, cortada em meias-luas muito finas",
       "opcional": false
     },
     {
@@ -135,7 +135,7 @@
       "quantidade": 5,
       "unidade": "ml",
       "componente": "Molho Soubise",
-      "notas": "Aproximadamente 1 colher de chá, para equilibrar a doçura",
+      "notas": "Para equilibrar a doçura",
       "opcional": true
     },
     {
@@ -143,7 +143,7 @@
       "quantidade": 30,
       "unidade": "ml",
       "componente": "Molho Soubise",
-      "notas": "Aproximadamente 2 colheres de sopa, para estufar a cebola",
+      "notas": "Para estufar a cebola",
       "opcional": false
     }
   ],
@@ -157,7 +157,7 @@
   "passos": [
     [
       "Assar as cenouras",
-      "Aquecer o forno a 210 °C. Cortar as cenouras em palitos, envolver com 10 ml de azeite, tomilho, sal e pimenta. Distribuir num tabuleiro sem sobrepor e assar durante 25–30 minutos, virando a meio.",
+      "Aquecer o forno a 210 °C. Cortar as cenouras em palitos, envolver com metade do azeite, tomilho, sal e pimenta. Distribuir num tabuleiro sem sobrepor e assar durante 25–30 minutos, virando a meio.",
       "Cortar palitos de espessura semelhante e deixar espaço entre eles para favorecer o dourado sem perder a textura."
     ],
     [
@@ -167,7 +167,7 @@
     ],
     [
       "Estufar a cebola",
-      "Cortar a cebola em meias-luas muito finas. Colocar num tacho com 5 ml de azeite, uma pitada de sal e 30 ml de água. Tapar e cozinhar em lume brando durante 10–12 minutos, mexendo ocasionalmente, até ficar muito macia e translúcida, sem alourar.",
+      "Cortar a cebola em meias-luas muito finas. Colocar num tacho com um quarto do azeite, uma pitada de sal e a água indicada nos ingredientes. Tapar e cozinhar em lume brando durante 10–12 minutos, mexendo ocasionalmente, até ficar muito macia e translúcida, sem alourar.",
       "Manter o lume baixo e o tacho tapado. O objetivo é desenvolver a doçura natural da cebola sem caramelizar."
     ],
     [
@@ -187,7 +187,7 @@
     ],
     [
       "Alourar os medalhões",
-      "Aquecer bem uma frigideira com os restantes 5 ml de azeite. Colocar os medalhões sem sobrepor e alourar durante aproximadamente 2 minutos de cada lado. Baixar o lume e cozinhar mais 1–3 minutos, conforme a espessura, controlando a temperatura interna.",
+      "Aquecer bem uma frigideira com o restante azeite. Colocar os medalhões sem sobrepor e alourar durante aproximadamente 2 minutos de cada lado. Baixar o lume e cozinhar mais 1–3 minutos, conforme a espessura, controlando a temperatura interna.",
       "Deixar formar uma crosta antes de virar. Utilizar um termómetro para evitar cozinhar excessivamente a carne."
     ],
     [

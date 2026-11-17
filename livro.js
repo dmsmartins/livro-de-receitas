@@ -49,9 +49,11 @@ function totalItems() {
   const items = new Map();
   for (const r of recipes.filter(r => plan[r.id].on)) {
     for (const item of selectedItems(r)) {
-      const id = JSON.stringify([item.name, item.unit]);
+      const aliases = {'Azeite para o risotto':'Azeite', 'Azeite para o robalo':'Azeite', 'Manteiga fria para o risotto':'Manteiga', 'Manteiga para o robalo':'Manteiga'};
+      const name = aliases[item.name] || item.name;
+      const id = JSON.stringify([name, item.unit]);
       const previous = items.get(id);
-      items.set(id, {...item, quantity: (previous?.quantity || 0) + item.quantity});
+      items.set(id, {...item, name, quantity: (previous?.quantity || 0) + item.quantity});
     }
   }
   return [...items.values()];
@@ -75,6 +77,20 @@ function setupShopping() {
   oldBookmark();
   window.addEventListener('hashchange', oldBookmark);
   showShopping();
+  const normalize = value => value.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLocaleLowerCase('pt-PT');
+  function filterCards() {
+    const query = normalize(el('pesquisa').value.trim());
+    let count = 0;
+    document.querySelectorAll('[data-recipe-card]').forEach(card => {
+      const r = recipes.find(recipe => recipe.id === card.dataset.recipeCard);
+      const haystack = normalize([r.nome, r.descricao, ...r.categorias, ...r.etiquetas, ...r.ingredientes.map(i => i[0])].join(' '));
+      card.hidden = !haystack.includes(query);
+      if (!card.hidden) count++;
+    });
+    el('resultados').textContent = count + (count === 1 ? ' receita encontrada' : ' receitas encontradas');
+  }
+  el('pesquisa').addEventListener('input', filterCards);
+  filterCards();
   el('copiar').onclick = () => copy(totalItems());
   el('guardar').onclick = () => {
     const url = URL.createObjectURL(new Blob([textList(totalItems()) + '\n'], {type: 'text/plain;charset=utf-8'}));
@@ -113,6 +129,26 @@ function setupRecipe(recipe) {
       (p.skip.length ? ' Desmarcaste ' + p.skip.length + ' ingrediente(s) aqui. Retira-os também no Bring!.' : ' Retira na app os ingredientes que já tens.');
     el('copiar-receita').disabled = !selectedItems(recipe).length;
   }
+  if (recipe.slug === 'robalo-pele-crocante-risotto-limao') {
+    const choices = [...document.querySelectorAll('[name="caldo"]')];
+    // This choice affects only shopping selections; the recipe remains complete.
+    choices.forEach(choice => choice.addEventListener('change', () => {
+      const homemade = choice.value === 'caseiro';
+      [1, 2, 3, 4, 5].forEach(i => {
+        const name = recipe.ingredientes[i][0];
+        const selected = i === 5 ? !homemade : homemade;
+        p.skip = p.skip.filter(n => n !== name);
+        if (!selected) p.skip.push(name);
+      });
+      update(); persist();
+    }));
+    if (!saved[recipe.id]) {
+      [1, 2, 3, 4].forEach(i => p.skip.push(recipe.ingredientes[i][0]));
+    }
+    const homemade = [1, 2, 3, 4].every(i => !p.skip.includes(recipe.ingredientes[i][0])) && p.skip.includes(recipe.ingredientes[5][0]);
+    const readyMade = [1, 2, 3, 4].every(i => p.skip.includes(recipe.ingredientes[i][0])) && !p.skip.includes(recipe.ingredientes[5][0]);
+    choices.forEach(choice => choice.checked = (homemade && choice.value === 'caseiro') || (readyMade && choice.value === 'pronto'));
+  }
   el('menos').onclick = () => { p.n--; update(); persist(); };
   el('mais').onclick = () => { p.n++; update(); persist(); };
   el('incluir').onchange = e => { p.on = e.target.checked; persist(); };
@@ -120,6 +156,9 @@ function setupRecipe(recipe) {
     input.onchange = () => {
       const name = recipe.ingredientes[Number(input.dataset.ingredient)][0];
       p.skip = input.checked ? p.skip.filter(n => n !== name) : [...p.skip, name];
+      if (recipe.slug === 'robalo-pele-crocante-risotto-limao' && [1, 2, 3, 4, 5].includes(Number(input.dataset.ingredient))) {
+        document.querySelectorAll('[name=caldo]').forEach(choice => { choice.checked = false; });
+      }
       update(); persist();
     };
   });
@@ -131,7 +170,7 @@ function setupRecipe(recipe) {
     });
     const label = completed.length + ' de ' + recipe.passos.length + ' passos concluídos';
     el('progresso').textContent = el('cook-progress').textContent = label;
-    el('proximo').disabled = completed.length === recipe.passos.length;
+    if (cooking) showCookingStep();
   }
   function saveProgress() {
     try { localStorage.setItem(progressKey, JSON.stringify(completed)); } catch {}
@@ -145,9 +184,18 @@ function setupRecipe(recipe) {
     };
   });
   el('repor').onclick = () => { completed = []; saveProgress(); };
+  let currentStep = 0;
+  const steps = [...document.querySelectorAll('.step')];
+  function showCookingStep() {
+    steps.forEach((step, i) => step.classList.toggle('cook-current', i === currentStep));
+    el('anterior').disabled = currentStep === 0;
+    el('proximo').disabled = currentStep === steps.length - 1;
+    el('cook-progress').textContent = 'Passo ' + (currentStep + 1) + ' de ' + steps.length;
+  }
   function nextStep() {
-    const next = [...document.querySelectorAll('[data-step]')].find(input => !input.checked);
-    next?.closest('.step').scrollIntoView({behavior: 'smooth', block: 'start'});
+    currentStep = Math.min(currentStep + 1, steps.length - 1);
+    showCookingStep();
+    steps[currentStep].scrollIntoView({behavior: 'smooth', block: 'start'});
   }
   let cooking = false;
   let wakeLock = null;
@@ -175,6 +223,8 @@ function setupRecipe(recipe) {
     el('modo').textContent = value ? 'Sair do modo de cozinha' : 'Modo de cozinha';
     el('cook-bar').hidden = !value;
     if (value) {
+      currentStep = Math.max(0, completed.length ? steps.findIndex(step => !step.querySelector('[data-step]').checked) : 0);
+      showCookingStep();
       el('preparacao').scrollIntoView({behavior: 'smooth'});
       await keepAwake();
     } else {
@@ -186,6 +236,7 @@ function setupRecipe(recipe) {
   el('modo').onclick = () => setCooking(!cooking);
   el('sair').onclick = () => setCooking(false);
   el('proximo').onclick = nextStep;
+  el('anterior').onclick = () => { currentStep = Math.max(0, currentStep - 1); showCookingStep(); steps[currentStep].scrollIntoView({behavior: 'smooth', block: 'start'}); };
   document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') keepAwake(); });
   window.addEventListener('pagehide', () => { wakeLock?.release(); });
   update();

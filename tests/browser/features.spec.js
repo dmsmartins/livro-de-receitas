@@ -81,3 +81,35 @@ test('portion limits, clipboard/storage failures and unsupported wake lock are h
   await expect(page.locator('#mais')).toBeDisabled();
   await page.locator('#modo').click();await expect(page.locator('#ecra')).toContainText('não permite');
 });
+
+test('pesquisa, escolha do caldo, quantidades e navegação na cozinha',async({page})=>{
+  await page.goto('index.html'); await ready(page);
+  await page.locator('#pesquisa').fill('robalo');
+  await expect(page.locator('.card:visible')).toHaveCount(1);
+  await page.locator('.card:visible').click(); await ready(page);
+  await expect(page.locator('[data-ingredient="1"]')).not.toBeChecked();
+  await expect(page.locator('[data-ingredient="5"]')).toBeChecked();
+  await page.getByLabel('Caldo caseiro', {exact:true}).check();
+  await expect(page.locator('[data-ingredient="1"]')).toBeChecked();
+  await expect(page.locator('[data-ingredient="5"]')).not.toBeChecked();
+  await page.locator('#mais').click(); await page.locator('#mais').click();
+  await expect(page.locator('#porcoes')).toHaveText('4 porções');
+  await expect(page.locator('#passo-4 [data-qty="6"]')).toHaveText('320 g');
+  await expect(page.locator('#passo-4')).not.toContainText('160 g');
+  await expect(page.locator('#passo-4 summary').first()).toHaveText('Dicas para este passo');
+  await page.locator('#modo').click();
+  await expect(page.locator('#passo-1')).toBeVisible();
+  await expect(page.locator('#passo-2')).toBeHidden();
+  await page.locator('#proximo').click();
+  await expect(page.locator('#passo-2')).toBeVisible();
+  await page.locator('#anterior').click();
+  await expect(page.locator('#passo-1')).toBeVisible();
+  await page.reload(); await ready(page);
+  await expect(page.getByLabel('Caldo caseiro',{exact:true})).toBeChecked();
+  await page.locator('#incluir').check();
+  await page.goto('index.html'); await ready(page);
+  await expect(page.locator('.shopping-items')).toContainText('Azeite');
+  await expect(page.locator('.shopping-items li').filter({hasText:'Azeite'})).toHaveCount(1);
+  await expect(page.locator('.shopping-items li').filter({hasText:'Azeite'})).toContainText('40 ml');
+  await expect(page.locator('.shopping-items')).not.toContainText('Caldo de peixe ou de legumes');
+});
